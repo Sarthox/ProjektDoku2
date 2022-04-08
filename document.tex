@@ -1,0 +1,209 @@
+% Allgemeines Dokumentenformnat
+\documentclass[a4paper,12pt,headsepline,hidelinks]{scrartcl}
+\usepackage{acronym}
+\usepackage{comment}
+\usepackage[table]{xcolor}
+
+\usepackage[
+automark, % Kapitelangaben in Kopfzeile automatisch erstellen
+headsepline, % Trennlinie unter Kopfzeile
+ilines % Trennlinie linksbündig ausrichten
+]{scrlayer-scrpage}
+
+% Kopf- und Fußzeilen ----------------------------------------------------------
+\pagestyle{scrheadings}
+% chapterpagestyle gibt es nicht in scrartcl
+%\renewcommand{\chapterpagestyle}{scrheadings}
+\clearscrheadfoot
+
+% Kopfzeile 
+%\renewcommand{\headfont}{\normalfont} % Schriftform der Kopfzeile
+%\ihead{\large{\textsc{Anwendung zur Erfassung und Bearbeitung von\\ umfangreichen Anwender-Softwaretests}}\\ \small{Softwaretest Manager} \\[0ex]}
+%\chead{}
+%\ohead{\includegraphics[scale=0.4]{}}
+%\setlength{\headheight}{15mm} % Höhe der Kopfzeile
+%\setheadwidth[0pt]{textwithmarginpar} % Kopfzeile über den Text hinaus verbreitern (falls Logo den Text überdeckt)
+
+% Fußzeile
+\ifoot{Jakob Schumann}
+\cfoot{}
+\ofoot{\pagemark}
+
+% Überschriften nach DIN 5008 in einer Fluchtlinie
+% ------------------------------------------------------------------------------
+
+% Abstand zwischen Nummerierung und Überschrift definieren
+% > Schön wäre hier die dynamische Berechnung des Abstandes in Abhängigkeit
+% > der Verschachtelungstiefe des Inhaltsverzeichnisses
+\newcommand{\headingSpace}{1.5cm}
+
+% Abschnittsüberschriften im selben Stil wie beim Inhaltsverzeichnis einrücken
+\renewcommand*{\othersectionlevelsformat}[3]{
+	\makebox[\headingSpace][l]{#3\autodot}
+}
+
+% Für die Einrückung wird das Paket tocloft benötigt
+%\cftsetindents{chapter}{0.0cm}{\headingSpace}
+%\cftsetindents{section}{0.0cm}{\headingSpace}
+%\cftsetindents{subsection}{0.0cm}{\headingSpace}
+%\cftsetindents{subsubsection}{0.0cm}{\headingSpace}
+%\cftsetindents{figure}{0.0cm}{\headingSpace}
+%\cftsetindents{table}{0.0cm}{\headingSpace}
+% Weitere Pakete
+% Grafiken
+\usepackage{graphicx}
+\usepackage{float}
+
+% Deutsche Sonderzeichen
+ %\usepackage{ngerman}
+
+% Deutsche Silbentrennung
+\usepackage[ngerman]{babel} 
+
+% Eurozeichen einbinden
+\usepackage[right]{eurosym} 
+
+% Umlaute in UTF8
+\usepackage[utf8]{inputenc}
+
+% Zeichencodierung
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage{helvet} 
+%\usepackage{fix-cm}
+%\newcommand{\changefont}[3]{	\fontfamily{#1} \fontseries{#2} \fontshape{#3} \selectfont}
+%\changefont{ptm}{m}{sl}
+
+% mehrseitige Tabellen
+\usepackage{longtable}
+
+% Seitenränder
+\usepackage{geometry}
+\geometry{left=2.5cm, right=2cm, top=4cm, bottom=2cm}
+
+% Boxen im Text
+\usepackage{fancybox}
+
+% schöne URLs
+\usepackage[hyphens,obeyspaces,spaces]{url} % schöne URLs
+
+% Textfarben
+\usepackage{color}
+
+% Mathematische Symbole
+\usepackage{amssymb}
+
+% Inhaltsverzeichnis + Querverweiss
+\usepackage[bookmarksnumbered,pdftitle={Seminararbeit},hyperfootnotes=false]{hyperref}
+
+% Kopfzeile
+%\usepackage{fancyhdr}
+%\pagestyle{fancy}
+%\fancyhf{}
+%\fancyhead[L]{\nouppercase{\leftmark}}
+%\fancyhead[C]{}
+%\fancyhead[R]{\thepage}
+%\renewcommand{\headrulewidth}{0.4pt}
+
+% Tabellen allgemein
+\usepackage{array}
+
+% Zitierweise
+\bibliographystyle{alphadin}
+
+% Kein Zwischenraum nach Satzzeichen
+\frenchspacing
+
+% Zeilenabstand
+\usepackage{setspace}
+\usepackage{parskip}
+\parskip 6pt plus 3pt minus 1pt
+
+% Bildzeichner
+\usepackage{capt-of}
+\usepackage{caption}
+
+% Stichwortverzeichnis
+\usepackage{makeidx}
+%\usepackage{unnumberedtotoc}
+
+% Aufzählungen
+\usepackage{listings}
+\lstset{numbers=left, numberstyle=\tiny, numbersep=5pt, keywordstyle=\color{black}\bfseries, stringstyle=\ttfamily,showstringspaces=false,basicstyle=\footnotesize,captionpos=b}
+\lstset{language=bash}
+
+% Indexerstellubg
+\makeindex
+
+% Abkürzungsverzeichnis
+%\usepackage{glossaries}
+%\makeglossaries
+
+\begin{document}
+
+% Titelseite
+\input{deckblatt}
+\pagenumbering{Roman}
+\onehalfspacing
+
+
+% Inhaltsverzeichnis
+\tableofcontents
+\thispagestyle{empty}
+
+%Abstract
+%\clearpage
+%\addsec{Abstract}
+
+% Tabellenverzeichnis
+%\clearpage
+%\addcontentsline{toc}{section}{Tabellenverzeichnis}
+%\listoftables
+
+% Abkürzungsverzeichnis
+%\clearpage
+
+\newpage
+\onehalfspacing
+\newcommand{\abkvz}{Abkürzungsverzeichnis}
+\section*{\abkvz}
+\markboth{\abkvz}{\abkvz}
+\input{abkuerzungen}
+%\printglossaries
+
+% Kapitel
+\clearpage
+\pagenumbering{arabic}
+%\fancyhead[L]{\nouppercase{\leftmark}}
+
+\input{kapitel/kapitel1}
+\input{kapitel/kapitel2}
+\input{kapitel/kapitel3}
+\input{kapitel/kapitel4}
+\input{kapitel/kapitel5}
+\input{kapitel/kapitel6}
+\input{kapitel/kapitel7}
+\input{kapitel/kapitel8}
+\input{kapitel/kapitel9}
+
+
+% Literaturverzeichnis
+\clearpage
+\singlespacing
+\pagenumbering{Roman}
+\addcontentsline{toc}{section}{Literaturverzeichnis}
+\renewcommand\refname{Literaturverzeichnis}
+\bibliography{literatur/sammlung}
+
+% Abbildungsverzeichnis
+\clearpage
+\addcontentsline{toc}{section}{Abbildungsverzeichnis}
+\listoffigures
+
+% Anhänge
+\newpage
+\onehalfspacing
+%\fancyhead[L]{Anhang}
+\input{anhang/anhang}
+
+\end{document}
