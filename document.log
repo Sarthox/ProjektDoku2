@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.4)  8 APR 2022 14:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.4)  11 APR 2022 12:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -810,7 +810,16 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 \tf@toc=\write7
 \openout7 = `document.toc'.
 
- [3] (abkuerzungen.tex) [4] (kapitel/kapitel1.tex
+ [3] (abkuerzungen.tex
+
+LaTeX Warning: Hyper reference `acro:GUID' on page IV undefined on input line 6
+.
+
+
+LaTeX Warning: Hyper reference `acro:GUID' on page IV undefined on input line 6
+.
+
+) [4] (kapitel/kapitel1.tex
 Underfull \hbox (badness 10000) in paragraph at lines 9--11
 
  []
@@ -818,7 +827,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--11
 Package acronym Info: Label `acro:KM' newly defined as it shall be overridden
 although it is yet undefined on input line 12.
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--18
+Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  []
 
@@ -831,12 +840,6 @@ although it is yet undefined on input line 25.
 Package acronym Info: Label `acro:CICD' newly defined as it shall be overridden
 
 although it is yet undefined on input line 26.
-
-Overfull \hbox (14.47305pt too wide) in paragraph at lines 24--30
-\T1/ptm/m/n/12 Ser-vice Git-Lab. Mit Git-Lab wird au-ÿer-dem ei-ne [][][]Contin
-uous In-te-gra-tion/-Con-ti-nuous De-li-ve-ry ([])[]
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 24--30
 
@@ -854,21 +857,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--30
 
 [1
 
-]
-Package acronym Info: Label `acro:GUID' newly defined as it shall be overridden
-
-although it is yet undefined on input line 32.
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--35
+] Excluding 'comment' comment.
+Underfull \hbox (badness 10000) in paragraph at lines 32--42
 
  []
 
 [2]
 Package acronym Info: Label `acro:TG' newly defined as it shall be overridden
-although it is yet undefined on input line 49.
+although it is yet undefined on input line 58.
 Package acronym Info: Label `acro:TRG' newly defined as it shall be overridden
-although it is yet undefined on input line 49.
- [3]) (kapitel/kapitel2.tex [4]
+although it is yet undefined on input line 58.
+) (kapitel/kapitel2.tex [3] [4]
 Underfull \hbox (badness 10000) in paragraph at lines 4--4
 []\T1/ptm/m/n/12 Achtung,
  []
@@ -880,7 +879,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--4
 
 [5]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 4
-6.
+7.
  (C:\Users\Jakob\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ))
@@ -919,6 +918,9 @@ s been already used, duplicate ignored
                    \relax 
 l.209 \end{document}
                      [3] (document.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `document.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  )
@@ -927,10 +929,10 @@ Package rerunfilecheck Info: File `document.out' has not changed.
 ### simple group (level 1) entered at line 9 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 20175 strings out of 478582
- 375229 string characters out of 2844345
+ 20170 strings out of 478582
+ 375480 string characters out of 2844345
  975129 words of memory out of 3000000
- 37947 multiletter control sequences out of 15000+600000
+ 37943 multiletter control sequences out of 15000+600000
  508118 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,19n,106p,10625b,602s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -940,9 +942,9 @@ ic/uhvb8a.pfb><C:/Users/Jakob/AppData/Local/Programs/MiKTeX/fonts/type1/urw/tim
 es/utmb8a.pfb><C:/Users/Jakob/AppData/Local/Programs/MiKTeX/fonts/type1/urw/tim
 es/utmr8a.pfb><C:/Users/Jakob/AppData/Local/Programs/MiKTeX/fonts/type1/urw/tim
 es/utmr8a.pfb>
-Output written on document.pdf (20 pages, 155648 bytes).
+Output written on document.pdf (20 pages, 154517 bytes).
 PDF statistics:
- 387 PDF objects out of 1000 (max. 8388607)
- 76 named destinations out of 1000 (max. 500000)
+ 382 PDF objects out of 1000 (max. 8388607)
+ 75 named destinations out of 1000 (max. 500000)
  326 words of extra memory for PDF output out of 10000 (max. 10000000)
 
