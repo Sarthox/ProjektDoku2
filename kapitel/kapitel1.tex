@@ -31,13 +31,7 @@ Bei einem \ac{OTR} hat ein Makler die Möglichkeit Angaben zu einem Versicherung
 %Angebotsspeicherung
 Beim Speichern eines Angebotes sollen alle im \ac{OTR} eingegebenen Daten im sogenannten Maklerportal für den angemeldeten Makler gespeichert werden. Das Maklerportal ist eine Webseite an der sich Makler anmelden können wo sie den \ac{OTR} aufrufen können, Übersichten über ihr Kundenbestand und noch vieles mehr. Zu dem können dort auch gespeicherte Angebote eingesehen, bearbeitet und mit einem \ac{OTR} aufgerufen werden. 
 Außerdem ist es vorgesehen, dass Makler Angebote kopieren können.
-\begin{comment}
-	In Implementierung verlagern
-	
-	Beim Speichern wird über mehrere anliegende Systeme ein Angebot in einer Datenbank gespeichert. Wichtig ist dabei die Session, welche von einem der Systeme generiert wird, realisiert als \ac{GUID}. Mithilfe dieser wird ein Angebot im XML-Format in einer Datenbank gespeichert und ist dadurch eindeutig identifizierbar.\\
-	
-	Dies beinhaltet die gleiche Logik wie die Angebotsspeicherung, bis auf dass eine neue \ac{GUID} erzeugt wird, wodurch dementsprechend ein neuer Eintrag in der Datenbank und im Maklerportal hinterlegt wird. Außerdem muss mit der \ac{GUID}, bzw. Session der Kopie weitergearbeitet werden.\\
-\end{comment} 
+
 Die \ac{KM} bietet auch \ac{OTR} außerhalb des Maklerportals an. Für diese Rechner ist dann keine Angebots- oder Kopiespeicherung vorgesehen, dementsprechend sind die Schaltflächen dort nicht vorhanden. \\
 
 % Drucken
