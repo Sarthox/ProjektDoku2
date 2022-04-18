@@ -4,13 +4,14 @@
 Der \ac{OTR} ist schon lange in Entwurf und wurde 
 \subsection{Zielplattform}
 \label{zielplattform}
-Das gesamte Projekt soll
+Das gesamte Projekt soll in einem \gls{Container} innerhalb eines \gls{k8s} Cluster laufen. Demnach ist die Zielplattform eine Linuxdistribution. Durch \gls{k8s} besteht ein Loadbalancing, falls zu viele Anfragen gleichzeitig reinkommen. Außerdem wird durch die Gitlab Pipeline \ac{cicd} ermöglicht und in Kombination mit \gls{helm} wird das Veröffentlichen neuer Versionen stark vereinfacht.
 \subsection{Architekturdesign}
 \label{architekturdesign}
-
+Die Backend Architektur besteht aus Microservices nach dem \ac{ddd}-Pattern. Außerdem wird für die Datenpersistenz das \gls{repo}-Pattern benutzt. Im Frontend werden Komponenten benutzt, welche ihre Daten über eine zentrale Datenzustandsverwaltung beziehen. Die Kommunikation zwischen Front- und Backend geschieht über \gls{REST}-Aufrufe. Daten aus dem Frontend werden per JSONPatch Protokoll und demnach über die HTTP-Patch methode übermittelt. Dadurch können Änderungen auch kleinteilig synchronisiert und persistiert werden.
 \subsection{Entwurf der Benutzeroberfläche}
 \label{benutzeroberfläche}
-
+Der designseitige Entwurf der Benutzeroberfläche wurde durch die Marketing-Abteilung per Mockups übernommen. Diese mussten allerdings nicht pixelperfect umgesetzt werden, sondern konnten in Kombination mit dem Corporate-Design-Voralgen als Richtlinie genutzt werden. Außerdem gab es wöchentliche Absprache sowie Absprachen mit einem externen Dienstleister, welcher Experte in UI/UX ist, in denen speziell das Design abgestimmt wurde. Die Logik der Benutzeroberfläche und die technische Umsetzung wurde innerhalb des Entwicklerteams durch Prototyping erarbeitet.\\
+Dadurch musste für die Fußzeilenkomponente speziell keine eigene Logik oder Design entworfen werden, es wurde anhand des Entwurfs für das Gesamtprojekt bearbeitet.
 \subsection{Datenmodell}
 \label{datenmodell}
 
@@ -19,3 +20,5 @@ Das gesamte Projekt soll
 
 \subsection{Maßnahmen zur Qualitätssicherung}
 \label{qualitaetssicherung}
+Durch die Arbeit mit Gitflow wurde jede Unteraufgabe in einem eigenem Gitbranch bearbeitet. Diese Branches werden erst nach Codereviews vom Entwicklerteam in den develop-Branch gemerged. \marginline{git ausdrücke benutzen???} Automatisch laufen durch die Gitlab Pipeline Unittests im Front- und Backend. Im Backend habe ich die bestehenden Unittests erweitert um neu implementeirte Logik zu testen.\\
+Wenn eine Änderung auf den Developbranch gepusht wurde wird diese von einem anderen Entwickler getestet. Außerdem gibt es weitere Mitarbeiter außerhalb des Entwicklerteams die regelmäßig auf dem Testsystem Blackbox-Akzeptanztests durchführen.
