@@ -50,7 +50,7 @@ Die Fußzeile ist eine Komponente die in allen bestehenden Produkten und zukünf
 \label{projektschnittstellen}
 Das Backend hat %, wie schon erwähnt,
 Schnittstellen zu einigen Systemen. Es gibt das \ac{TG}, welches den Einstiegspunkt von Extern zu den Online Tarifrechnern darstellt. Dieses sowie der \ac{OTR} benutzt das \ac{TRG}, welches als REST-Schnittstelle funktioniert um unter anderem Konfigurationen für Tarife oder das Speichern von Angeboten anzubieten. Das \ac{TRG} speichert Daten in eine MS SQLServer Datenbank, während der neue \ac{OTR} keine direkte Anbindung an eine Datenbank hat. \\ %was ist mit Cache? André fragen wie Cache funktioniertr
-Eine weitere Schnittstelle die von der Fußzeilenkomponente genutzt werden ist der PDFToolsservice, welcher die Generierung von PDF-Dokumenten übernimmt. Die Fußzeile sowie alle Komponenten im Frontend bekommen ihre Daten über den \gls{Localstorage} des Browsers (Vue.js Pinia Store) geliefert.
+Eine weitere Schnittstelle die von der Fußzeilenkomponente genutzt werden ist der PDFToolsservice, welcher die Generierung von PDF-Dokumenten übernimmt. Die Fußzeile sowie alle Komponenten im Frontend bekommen ihre Daten über den \gls{localstorage} des Browsers (Vue.js Pinia Store) geliefert.
 Der \ac{OTR} wird vor allem von Maklern benutzt um Tarife für ihre Endkunden auszurechnen.
 \subsection{Projektabgrenzung}
 \label{projektabgrenzung}
