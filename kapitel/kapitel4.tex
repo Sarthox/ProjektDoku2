@@ -2,6 +2,11 @@
 \section{Entwurfsphase}
 \label{entwurfsphase}
 Der \ac{OTR} ist schon lange in Entwurf und wurde 
+
+\begin{comment}
+	Die Kommunikation zwischen Front- und Backend wird durch REST-API Aufrufe realisiert. Um die Daten synchron zu halten wird jede Änderung im Frontend in den \gls{localstorage} des Browsers geschrieben und zeitgleich per HTTP-JSON-PATCH Aufruf ans Backend weitergesendet. Das Backend speichert die neuen oder geänderten Daten im Cache und führt wenn möglich eine Berechnung sowie Validierung durch. Die berechneten Beiträge und Validierungsergebnisse werden anschließend zurückgesendet. Alle Schnittstellen sowie \ac{DTO} werden beim Bauen des Backends automatisch für das Frontend generiert.\\
+	Als Versionsverwaltung für dieses Projekt wird \gls{git} mit \gls{gitflow} genutzt. Das \ac{CICD} wird mittels \gls{gitlab} Pipelines realisiert, also eine Möglichkeit automatisch nach jeder Änderung das Projekt zu bauen, zu testen und zu veröffentlichen. Veröffentlicht wird der \ac{OTR} in einem \gls{k8s}-Cluster. Somit muss vorher ein Dockerimage gebaut werden um es dann in einem Container laufen zu lassen. Für jeden Feature-, Develop- und Masterbranch im Git wird jeweils eine eigene Instanz im \gls{k8s} Cluster erstellt, so dass man jeden Stand auf dem Testsystem testen kann.
+\end{comment}
 \subsection{Zielplattform}
 \label{zielplattform}
 Das gesamte Projekt soll in einem \gls{Container} innerhalb eines \gls{k8s} Cluster laufen. Demnach ist die Zielplattform eine Linuxdistribution. Durch \gls{k8s} besteht ein Loadbalancing, falls zu viele Anfragen gleichzeitig reinkommen. Außerdem wird durch die Gitlab Pipeline \ac{cicd} ermöglicht und in Kombination mit \gls{helm} wird das Veröffentlichen neuer Versionen stark vereinfacht.
