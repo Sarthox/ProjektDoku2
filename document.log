@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.4)  19 APR 2022 13:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.4)  20 APR 2022 19:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1150,8 +1150,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--69
 \T1/ptm/m/n/12 Wort
  []
 
-) (kapitel/kapitel3.tex [6] Excluding 'comment' comment.) (kapitel/kapitel4.tex
+) (kapitel/kapitel3.tex [6] Excluding 'comment' comment.
+Underfull \hbox (badness 10000) in paragraph at lines 16--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--33
+
+ []
+
+Package acronym Info: Label `acro:SAP' newly defined as it shall be overridden
+although it is yet undefined on input line 36.
+
+Package acronym Warning: Acronym `SAP' is not defined on input line 36.
+
+
+Package acronym Warning: Acronym `SAP' is not defined on input line 36.
+
 [7]
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--56
+
+ []
+
+[8]) (kapitel/kapitel4.tex [9]
 Package acronym Info: Label `acro:cicd' newly defined as it shall be overridden
 
 although it is yet undefined on input line 7.
@@ -1168,7 +1200,7 @@ Overfull \hbox (15.75742pt too wide) in paragraph at lines 13--15
 de durch die Marketing-Abteilung per Mockups
  []
 
-) (kapitel/kapitel5.tex [8] [9] Excluding 'comment' comment.
+) (kapitel/kapitel5.tex [10] [11] Excluding 'comment' comment.
 Overfull \hbox (4.35693pt too wide) in paragraph at lines 18--23
 \T1/ptm/m/n/12 in-ter-ne Kom-po-nen-ten-bi-blio-thek als [][]npm[]-Paket, wel-c
 he Vuetify-Elemente kap-selt und im Corporate-
@@ -1187,7 +1219,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
 
-[10]
+[12]
 Overfull \hbox (41.83875pt too wide) in paragraph at lines 30--30
  \T1/ptm/m/n/12 lock,cache,storage,
  []
@@ -1208,7 +1240,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
-[11]
+[13]
 Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
@@ -1225,8 +1257,8 @@ Package acronym Warning: Acronym `guid' is not defined on input line 34.
 
 Package acronym Warning: Acronym `guid' is not defined on input line 34.
 
-[12]) (kapitel/kapitel6.tex [13]) (kapitel/kapitel7.tex [14])
-(kapitel/kapitel8.tex [15]) (kapitel/kapitel9.tex [16]) [17] (document.bbl
+[14]) (kapitel/kapitel6.tex [15]) (kapitel/kapitel7.tex [16])
+(kapitel/kapitel8.tex [17]) (kapitel/kapitel9.tex [18]) [19] (document.bbl
 
 LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
                before end of `thebibliography' environment on input line 10.
@@ -1266,13 +1298,13 @@ Package rerunfilecheck Info: File `document.out' has not changed.
 ### simple group (level 1) entered at line 9 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 27841 strings out of 478582
- 526140 string characters out of 2844345
- 995756 words of memory out of 3000000
- 45430 multiletter control sequences out of 15000+600000
+ 27838 strings out of 478582
+ 526070 string characters out of 2844345
+ 1001897 words of memory out of 3000000
+ 45427 multiletter control sequences out of 15000+600000
  510966 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,19n,106p,10625b,772s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 108i,19n,106p,10625b,777s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
 pdfTeX warning (dest): name{glo:gitlab} has been referenced but does not exist,
  replaced by a fixed one
@@ -1295,9 +1327,9 @@ sers/Jakob/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C
 :/Users/Jakob/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C
 :/Users/Jakob/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C
 :/Users/Jakob/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on document.pdf (25 pages, 197497 bytes).
+Output written on document.pdf (27 pages, 206587 bytes).
 PDF statistics:
- 527 PDF objects out of 1000 (max. 8388607)
+ 534 PDF objects out of 1000 (max. 8388607)
  108 named destinations out of 1000 (max. 500000)
- 326 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 302 words of extra memory for PDF output out of 10000 (max. 10000000)
 

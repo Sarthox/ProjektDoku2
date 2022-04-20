@@ -10,37 +10,52 @@ evtl alte otrs mit nutzwertanalyse vergleichen?
 Die \ac{KM} bietet \ac{OTR} für Makler an. Zur Zeit gibt es mehrere Generationen an Rechnern. Die älteste ist mit PHP umgesetzt und hat eine altmodische Benutzeroberfläche. Eine neuere Tarifrechnerbasis ist ähnlich wie diese Neuentwicklung aufgebaut auf einem .NET-Backend und einem Vue.js Frontend. Allerdings stellte sich bei dem Einführen neuer Tariflinien heraus, dass diese sich nicht einfach in diesen \ac{OTR} einbinden ließ. \\
 Demnach existieren funktionale \ac{OTR}, die beim Vertrieb von Versicherungsprodukten helfen, allerdings sind diese entweder für den Endnutzer nicht anschaulich oder modern und/oder für den Entwickler schwierig zu warten oder zu erweitern.
 
-\subsection{Wirtschaftlichkeitsanalyse}
-\label{wirtschaftlichkeitsanalyse}
-
-\subsection{"Make or Buy" - Entscheidung}
+\subsection{'Make, Buy, or Reuse' - Analyse}
 \label{makeOrBuy}
+
 Dadurch, dass die \ac{KM} neue und innovative Versicherungskonzepte auf den Markt bringt, eignen sich sogenannte Baukastenrechner nicht für diese Tarife. Die Vorlagen dieser Rechner sind nicht so individuell gestaltbar wie die \ac{KM} es benötigt.\\
 Da es schon ältere Generationen an Tarifrechner gibt, wäre auch eine Überlegung einfach eine ältere Tarifrechnerbasis weiter zu benutzen, anstatt einen neuen einzuführen. Die älteste Generation ist allerdings technologisch nicht tragbar und muss grundlegend erneuert werden. Ein neuer \ac{OTR} sollte die neue Grundlage werden, allerdings war dieser Versuch nicht erfolgreich.\\
-Der neue \ac{OTR} soll ein universeller Ansatz werden um alle zukünftigen Produkte gleich abzubilden.
+In der folgenden Nutzwertanalyse wurden die verschiedenen \ac{OTR} miteinander verglichen. Hierbei hab ich mich für die Kriterien Aussehen, Aktualität der Technologie, bzw. die Zukunftssicherheit, Erweiterbarkeit und Anpassbarkeit entschieden. Erweiterbarkeit und Anpassbarkeit haben eine große Gewichtung, da dies für die \ac{KM} aufgrund individueller Tarife aber auch für die Entwicklung in der Mariosoft, sehr wichtig ist. Ebenso ist die Zukunftssicherheit und die Aktualität der eingesetzten Technologien wichtig. Weniger relevant ist das Aussehen der Benutzeroberfläche, trotzdem fließt diese in die Bewertung ein, da dieser Punkt für den Endkunden wichtig ist. Die Bewertung geht von 0-10 Punkten, wobei 10 die best möglichste Bewertung ist.\\
+\\
+
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{|l|l|ll|ll|ll|}
+	\hline
+	&            & \multicolumn{2}{l|}{\cellcolor[HTML]{3166FF}1. Generation OTR ('Universal')} & \multicolumn{2}{l|}{\cellcolor[HTML]{3166FF}2. Generation OTR ('Spirit')}      & \multicolumn{2}{l|}{\cellcolor[HTML]{3166FF}3. Generation OTR}                    \\ \hline
+	Kriterium                           & Gewichtung & \multicolumn{1}{l|}{Bewertung}            & Bewertung (gewichtet)            & \multicolumn{1}{l|}{Bewertung} & \cellcolor[HTML]{EFEFEF}Bewertung (gewichtet) & \multicolumn{1}{l|}{\cellcolor[HTML]{EFEFEF}Bewertung} & Bewertung (gewichtet)               \\ \hline
+	Aussehen                            & 15\%       & \multicolumn{1}{l|}{3}                    & 4,5                              & \multicolumn{1}{l|}{7}         & 10,5                                          & \multicolumn{1}{l|}{9}                                 & 13,5                                \\ \hline
+	Technologie & 25\%       & \multicolumn{1}{l|}{2}                    & 5                                & \multicolumn{1}{l|}{7}         & 17,5                                          & \multicolumn{1}{l|}{9}                                 & 22,5                                \\ \hline
+	Erweiterbarkeit                     & 30\%       & \multicolumn{1}{l|}{3}                    & 9                                & \multicolumn{1}{l|}{6}         & 18                                            & \multicolumn{1}{l|}{8}                                 & 24                                  \\ \hline
+	Anpassbarkeit                       & 30\%       & \multicolumn{1}{l|}{3}                    & 9                                & \multicolumn{1}{l|}{5}         & 15                                            & \multicolumn{1}{l|}{7}                                 & 21                                  \\ \hline
+	\textbf{Summe}                      & 100\%      & \multicolumn{1}{l|}{11}                   & \textbf{27,5}                    & \multicolumn{1}{l|}{25}        & \textbf{61}                                   & \multicolumn{1}{l|}{33}                                & \cellcolor[HTML]{009901}\textbf{81} \\ \hline
+\end{tabular}%
+}\\
+
+
+Der Rechner 'Universal' ist in PHP programmiert, einer Programmiersprache mit welcher in der Mariosoft nicht mehr weiter entwickelt werden soll. Das nötige Personal mit PHP-Fachwissen fehlt. Außerdem wird das verwendete Framework nicht mehr unterstützt und das Update auf eine neuere Version bringt zu viele Breakingchanges mit sich. Die Erweiterbarkeit und Anpassbarkeit ist bei diesem Rechner auch eingeschränkt, da das Frontend anhand von XML-Vorlagen vorgegeben wird. Dadurch ist es schwierig Besonderheiten bei einigen Tarifen umzusetzen und diese zu warten. Die Oberfläche ist sehr altmodisch. \\
+Hingegen läuft der \ac{OTR} 'Spirit' auf einer neuer Technologie, ähnlich dem neuen \ac{OTR}. Das Backend ist eine .NET 5.0 API und das Frontend eine Vue.js 2 \ac{SAP}. Dieser Rechner wurde zwar mit einem generischem Ansatz geplant, allerdings lief die Logik schon beim Einführen des zweiten Tarifs zu weit auseinander. So wurde unter anderem eine andere Datenhaltungsmethode benutzt und die Struktur im Frontend war zu spezifisch zum ursprünglichen Tarif. Dadurch ist die Implementierung neuer Tarife nicht einheitlich und kompliziert.
+
+Der neue \ac{OTR} soll ein universeller Ansatz werden um alle zukünftigen Produkte gleich abzubilden. Durch die aktuellsten Technologien wird eine gewisse Langlebigkeit garantiert und durch den modularen und generischen Ansatz ist es einfach neue Produkte abzubilden. Durch ein Corporate-Design und die Einbindung der Marketing-Abteilung in der Konzeption der Benutzeroberfläche ist diese anschaulicher und benutzerfreundlicher.
+
 
 \subsection{Projektkosten}
 \label{projektkosten}
-Die Kosten des Gesamtprojekts, also der kompletten \ac{OTR} Basis, belaufen sich auf ca. 80.000-100.000€. Dazu gehören allerdings mehrere Nebeneffekte die aus dem Gesamtprojekt  resultieren. So wurde im Rahmen des \ac{OTR}s die \ac{cicd} Pipeline von Jenkins auf \gls{gitlab} umgestellt. Außerdem wurde ein einheitliches Corporate-Design eingeführt, an welchem die Marketingabteilung gearbeitet hat. Der erste Tarif in dem \ac{OTR} wird eine Betriebshaftpflicht geplant, welche ausgearbeitet werden musste und anhand welcher alle tarifspezifischen Komponenten des Rechners implementiert wurden. Dazu kommt, dass das Bestandsführungssystem für die Betriebshaftpflicht konfiguriert werden muss.\\
+Die Kosten des Gesamtprojekts, also der kompletten \ac{OTR} Basis, belaufen sich auf ca. 80.000-100.000€. Dazu gehören allerdings mehrere Nebeneffekte die aus dem Gesamtprojekt  resultieren. So wurde im Rahmen des \ac{OTR}s die \ac{CICD} Pipeline von Jenkins auf \gls{gitlab} umgestellt. Außerdem wurde ein einheitliches Corporate-Design eingeführt, an welchem die Marketingabteilung gearbeitet hat. Der erste Tarif in dem \ac{OTR} wird eine Betriebshaftpflicht geplant, welche ausgearbeitet werden musste und anhand welcher alle tarifspezifischen Komponenten des Rechners implementiert wurden. Dazu kommt, dass das Bestandsführungssystem für die Betriebshaftpflicht konfiguriert werden muss.\\
 
 Die Kosten der Fußzeilenkomponente lässt sich anhand der aufgewendeten Stunden berechnen.
 Dabei wird eine Arbeitsstunde eines Auszubildenden mit 100€ berechnet. Weitere benötigte Mitarbeiter, z.B. für Absprachen, lassen sich mit durchschnittlich 130€ pro Stunde berechnen. 
-Demnach ergibt sich daraus:
-(69 Std * 100€/Std)Azubi = 6900€
- + 
- (1 Std * 4 * 130€/Std)Dailys = 520€
- + 
- 2 Std * 6 * 130€/Std Weeklys = 1560€
- 5 Std * 2 *  130€/Std AG gespräche = 1300€
- = 10.280€
- In Meetings auch andere Komponenten besrpochen??? Vllt weniger meetings eintragen deswegen??
+Demnach ergibt sich daraus:\\
+Für die Realisierung durch Auszubildenden: \\
+69 Std * 100€/Std = 6900€ \\
+Tägliche Absprachen mit Entwicklerteam: \\
+1 Std * 4 * 130€/Std = 520€\\
+Wöchentliche Absprachen bezüglich der Oberfläche:  \\
+1 Std * 6 * 130€/Std = 780€\\
+Allgemeine regelmäßige Anforderungsabsprachen mit Auftraggeber:  \\
+5 Std * 1 *  130€/Std = 650€\\
+
+= 8850€ an Kosten für die Fußzeilenkomponente.
 \subsection{Amortisationsdauer}
 \label{amortisationsdauer}
-
-\subsection{Anwendungsfälle}
-\label{anwednungsfaelle}
-
-\subsection{Anforderungen}
-\label{anforderungen}
 
 
