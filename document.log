@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.4)  20 APR 2022 19:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.4)  21 APR 2022 11:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1080,13 +1080,22 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 \tf@toc=\write9
 \openout9 = `document.toc'.
 
- [3] (abkuerzungen.tex) [4] (document.gls
-Overfull \hbox (22.92665pt too wide) in paragraph at lines 52--54
+ [3] (abkuerzungen.tex
+
+LaTeX Warning: Hyper reference `acro:DTO' on page IV undefined on input line 9.
+
+
+
+LaTeX Warning: Hyper reference `acro:DTO' on page IV undefined on input line 9.
+
+
+) [4] (document.gls
+Overfull \hbox (12.91885pt too wide) in paragraph at lines 52--54
 []\T1/ptm/m/n/12 Ein cli-ent-sei-ti-ges Javascript-Framework nach dem Model-Vie
 w-ViewModel-Entwurfsmuster
  []
 
-) [5] (kapitel/kapitel1.tex
+[5]) [6] (kapitel/kapitel1.tex
 Underfull \hbox (badness 10000) in paragraph at lines 9--11
 
  []
@@ -1099,48 +1108,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--17
  []
 
 Package acronym Info: Label `acro:OTR' newly defined as it shall be overridden
-although it is yet undefined on input line 24.
+although it is yet undefined on input line 18.
 Package acronym Info: Label `acro:SPA' newly defined as it shall be overridden
 although it is yet undefined on input line 24.
-Package acronym Info: Label `acro:DTO' newly defined as it shall be overridden
-although it is yet undefined on input line 25.
-Package acronym Info: Label `acro:CICD' newly defined as it shall be overridden
 
-although it is yet undefined on input line 26.
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--30
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--30
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--30
+Underfull \hbox (badness 10000) in paragraph at lines 24--28
 
  []
 
 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
+Underfull \hbox (badness 10000) in paragraph at lines 30--32
 
  []
 
 [2]
 Package acronym Info: Label `acro:TG' newly defined as it shall be overridden
-although it is yet undefined on input line 52.
+although it is yet undefined on input line 46.
 Package acronym Info: Label `acro:TRG' newly defined as it shall be overridden
-although it is yet undefined on input line 52.
-) (kapitel/kapitel2.tex [3] [4] [5]
+although it is yet undefined on input line 46.
+) (kapitel/kapitel2.tex [3] [4]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 4
 7.
 
 (C:\Users\Jakob\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
+Package acronym Info: Label `acro:CICD' newly defined as it shall be overridden
+
+although it is yet undefined on input line 69.
+
 Underfull \hbox (badness 10000) in paragraph at lines 69--69
 []\T1/ptm/m/n/12 besseres
  []
@@ -1150,7 +1148,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--69
 \T1/ptm/m/n/12 Wort
  []
 
-) (kapitel/kapitel3.tex [6] Excluding 'comment' comment.
+) (kapitel/kapitel3.tex [5] Excluding 'comment' comment.
 Underfull \hbox (badness 10000) in paragraph at lines 16--20
 
  []
@@ -1173,7 +1171,7 @@ Package acronym Warning: Acronym `SAP' is not defined on input line 36.
 
 Package acronym Warning: Acronym `SAP' is not defined on input line 36.
 
-[7]
+[6]
 Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
@@ -1183,24 +1181,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--56
 
  []
 
-[8]) (kapitel/kapitel4.tex [9]
+[7]) (kapitel/kapitel4.tex [8] Excluding 'comment' comment.
 Package acronym Info: Label `acro:cicd' newly defined as it shall be overridden
 
-although it is yet undefined on input line 7.
+although it is yet undefined on input line 12.
 
 
-Package acronym Warning: Acronym `cicd' is not defined on input line 7.
+Package acronym Warning: Acronym `cicd' is not defined on input line 12.
 
 
-Package acronym Warning: Acronym `cicd' is not defined on input line 7.
+Package acronym Warning: Acronym `cicd' is not defined on input line 12.
 
 
-Overfull \hbox (15.75742pt too wide) in paragraph at lines 13--15
+Overfull \hbox (15.75742pt too wide) in paragraph at lines 18--20
 \T1/ptm/m/n/12 Der de-si-gnsei-ti-ge Ent-wurf der Be-nut-ze-ro-ber-flä-che wur-
 de durch die Marketing-Abteilung per Mockups
  []
 
-) (kapitel/kapitel5.tex [10] [11] Excluding 'comment' comment.
+) (kapitel/kapitel5.tex [9] [10] Excluding 'comment' comment.
 Overfull \hbox (4.35693pt too wide) in paragraph at lines 18--23
 \T1/ptm/m/n/12 in-ter-ne Kom-po-nen-ten-bi-blio-thek als [][]npm[]-Paket, wel-c
 he Vuetify-Elemente kap-selt und im Corporate-
@@ -1219,7 +1217,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
 
-[12]
+[11]
 Overfull \hbox (41.83875pt too wide) in paragraph at lines 30--30
  \T1/ptm/m/n/12 lock,cache,storage,
  []
@@ -1240,7 +1238,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
-[13]
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
@@ -1257,8 +1255,8 @@ Package acronym Warning: Acronym `guid' is not defined on input line 34.
 
 Package acronym Warning: Acronym `guid' is not defined on input line 34.
 
-[14]) (kapitel/kapitel6.tex [15]) (kapitel/kapitel7.tex [16])
-(kapitel/kapitel8.tex [17]) (kapitel/kapitel9.tex [18]) [19] (document.bbl
+) (kapitel/kapitel6.tex [13] [14]) (kapitel/kapitel7.tex [15])
+(kapitel/kapitel8.tex [16]) (kapitel/kapitel9.tex [17]) [18] (document.bbl
 
 LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
                before end of `thebibliography' environment on input line 10.
@@ -1290,6 +1288,9 @@ s been already used, duplicate ignored
                    \relax 
 l.210 \end{document}
                      [3] (document.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `document.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  )
@@ -1298,24 +1299,16 @@ Package rerunfilecheck Info: File `document.out' has not changed.
 ### simple group (level 1) entered at line 9 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 27838 strings out of 478582
- 526070 string characters out of 2844345
- 1001897 words of memory out of 3000000
- 45427 multiletter control sequences out of 15000+600000
+ 27831 strings out of 478582
+ 525985 string characters out of 2844345
+ 1002159 words of memory out of 3000000
+ 45423 multiletter control sequences out of 15000+600000
  510966 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,19n,106p,10625b,777s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 108i,19n,106p,10625b,778s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
 pdfTeX warning (dest): name{glo:gitlab} has been referenced but does not exist,
  replaced by a fixed one
-
-
-pdfTeX warning (dest): name{glo:gitflow} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{glo:git} has been referenced but does not exist, re
-placed by a fixed one
 
 
 pdfTeX warning (dest): name{glo:localstorage} has been referenced but does not 
@@ -1327,9 +1320,9 @@ sers/Jakob/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C
 :/Users/Jakob/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C
 :/Users/Jakob/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C
 :/Users/Jakob/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on document.pdf (27 pages, 206587 bytes).
+Output written on document.pdf (27 pages, 204315 bytes).
 PDF statistics:
- 534 PDF objects out of 1000 (max. 8388607)
- 108 named destinations out of 1000 (max. 500000)
+ 517 PDF objects out of 1000 (max. 8388607)
+ 105 named destinations out of 1000 (max. 500000)
  302 words of extra memory for PDF output out of 10000 (max. 10000000)
 

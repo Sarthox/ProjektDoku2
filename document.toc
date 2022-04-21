@@ -2,38 +2,38 @@
 \contentsline {section}{\numberline {1}Einleitung}{1}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Projektumfeld}{1}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Projektziel}{1}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Projektbegründung}{3}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.3}Projektbegründung}{2}{subsection.1.3}%
 \contentsline {subsection}{\numberline {1.4}Projektschnittstellen}{3}{subsection.1.4}%
-\contentsline {subsection}{\numberline {1.5}Projektabgrenzung}{4}{subsection.1.5}%
-\contentsline {section}{\numberline {2}Projektplanung}{5}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Projektphasen}{5}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Abweichung vom Projektantrag}{5}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Ressourcenplanung}{6}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Entwicklungsprozess}{6}{subsection.2.4}%
-\contentsline {section}{\numberline {3}Analysephase}{7}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Ist-Analyse}{7}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}'Make, Buy, or Reuse' - Analyse}{7}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Projektkosten}{8}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Amortisationsdauer}{9}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Entwurfsphase}{10}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Zielplattform}{10}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Architekturdesign}{10}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Entwurf der Benutzeroberfläche}{10}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Datenmodell}{11}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Geschäftslogik}{11}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Maßnahmen zur Qualitätssicherung}{11}{subsection.4.6}%
-\contentsline {section}{\numberline {5}Implementierungsphase}{12}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Implementierung der Datenstruktur}{12}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Implementierung der Benutzeroberfläche}{12}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Implementierung der Geschäftslogik}{13}{subsection.5.3}%
-\contentsline {section}{\numberline {6}Abnahmephase}{16}{section.6}%
-\contentsline {section}{\numberline {7}Einführungsphase}{17}{section.7}%
-\contentsline {section}{\numberline {8}Dokumentation}{18}{section.8}%
-\contentsline {section}{\numberline {9}Fazit}{19}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Soll-Ist-Vergleich}{19}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Gewonnene Erkenntnisse}{19}{subsection.9.2}%
-\contentsline {subsection}{\numberline {9.3}Ausblick}{19}{subsection.9.3}%
+\contentsline {subsection}{\numberline {1.5}Projektabgrenzung}{3}{subsection.1.5}%
+\contentsline {section}{\numberline {2}Projektplanung}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Projektphasen}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Abweichung vom Projektantrag}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Ressourcenplanung}{5}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Entwicklungsprozess}{5}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Analysephase}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Ist-Analyse}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}'Make, Buy, or Reuse' - Analyse}{6}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Projektkosten}{7}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Amortisationsdauer}{8}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Entwurfsphase}{9}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Zielplattform}{9}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Architekturdesign}{9}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Entwurf der Benutzeroberfläche}{9}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Datenmodell}{10}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Geschäftslogik}{10}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Maßnahmen zur Qualitätssicherung}{10}{subsection.4.6}%
+\contentsline {section}{\numberline {5}Implementierungsphase}{11}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Implementierung der Datenstruktur}{11}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Implementierung der Benutzeroberfläche}{11}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Implementierung der Geschäftslogik}{12}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Abnahmephase}{15}{section.6}%
+\contentsline {section}{\numberline {7}Einführungsphase}{16}{section.7}%
+\contentsline {section}{\numberline {8}Dokumentation}{17}{section.8}%
+\contentsline {section}{\numberline {9}Fazit}{18}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Soll-Ist-Vergleich}{18}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Gewonnene Erkenntnisse}{18}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Ausblick}{18}{subsection.9.3}%
 \contentsline {section}{Literaturverzeichnis}{I}{subsection.9.3}%
-\contentsline {section}{Abbildungsverzeichnis}{II}{section*.16}%
+\contentsline {section}{Abbildungsverzeichnis}{II}{section*.15}%
 \contentsline {section}{\numberline {A}Anhänge}{III}{appendix.A}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
