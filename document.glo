@@ -2,36 +2,44 @@
 \glossaryentry{Vuetify?\glossentry{vuetify}|setentrycounter[]{page}"\glsnumberformat}{1}
 \glossaryentry{Vuetify?\glossentry{vuetify}|setentrycounter[]{page}"\glsnumberformat}{1}
 \glossaryentry{TypeScript?\glossentry{typescript}|setentrycounter[]{page}"\glsnumberformat}{1}
+\glossaryentry{Git?\glossentry{git}|setentrycounter[]{page}"\glsnumberformat}{1}
+\glossaryentry{GitFlow?\glossentry{gitflow}|setentrycounter[]{page}"\glsnumberformat}{1}
+\glossaryentry{GitLab?\glossentry{gitlab}|setentrycounter[]{page}"\glsnumberformat}{1}
+\glossaryentry{Kubernetes?\glossentry{k8s}|setentrycounter[]{page}"\glsnumberformat}{1}
 \glossaryentry{Localstorage?\glossentry{localstorage}|setentrycounter[]{page}"\glsnumberformat}{3}
 \glossaryentry{GitLab?\glossentry{gitlab}|setentrycounter[]{page}"\glsnumberformat}{7}
 \glossaryentry{Container?\glossentry{Container}|setentrycounter[]{page}"\glsnumberformat}{9}
 \glossaryentry{Kubernetes?\glossentry{k8s}|setentrycounter[]{page}"\glsnumberformat}{9}
 \glossaryentry{Kubernetes?\glossentry{k8s}|setentrycounter[]{page}"\glsnumberformat}{9}
-\glossaryentry{Helm?\glossentry{helm}|setentrycounter[]{page}"\glsnumberformat}{9}
+\glossaryentry{Kubernetes?\glossentry{k8s}|setentrycounter[]{page}"\glsnumberformat}{9}
 \glossaryentry{Domain-Driven Design?\glossentry{ddd}|setentrycounter[]{page}"\glsnumberformat}{9}
 \glossaryentry{Repository-Pattern?\glossentry{repopattern}|setentrycounter[]{page}"\glsnumberformat}{9}
-\glossaryentry{REST?\glossentry{REST}|setentrycounter[]{page}"\glsnumberformat}{9}
-\glossaryentry{Linter?\glossentry{Linter}|setentrycounter[]{page}"\glsnumberformat}{10}
-\glossaryentry{Vue.js?\glossentry{vue}|setentrycounter[]{page}"\glsnumberformat}{11}
+\glossaryentry{Localstorage?\glossentry{localstorage}|setentrycounter[]{page}"\glsnumberformat}{9}
+\glossaryentry{Repository-Pattern?\glossentry{repopattern}|setentrycounter[]{page}"\glsnumberformat}{9}
+\glossaryentry{Repository-Pattern?\glossentry{repopattern}|setentrycounter[]{page}"\glsnumberformat}{10}
+\glossaryentry{Distributed Cache?\glossentry{distributedcache}|setentrycounter[]{page}"\glsnumberformat}{10}
+\glossaryentry{Pinia-Store?\glossentry{pinia}|setentrycounter[]{page}"\glsnumberformat}{10}
+\glossaryentry{Vue.js?\glossentry{vue}|setentrycounter[]{page}"\glsnumberformat}{10}
+\glossaryentry{Vuetify?\glossentry{vuetify}|setentrycounter[]{page}"\glsnumberformat}{10}
+\glossaryentry{TypeScript?\glossentry{typescript}|setentrycounter[]{page}"\glsnumberformat}{10}
+\glossaryentry{npm?\glossentry{npm}|setentrycounter[]{page}"\glsnumberformat}{10}
+\glossaryentry{Vue.js?\glossentry{vue}|setentrycounter[]{page}"\glsnumberformat}{10}
 \glossaryentry{Vuetify?\glossentry{vuetify}|setentrycounter[]{page}"\glsnumberformat}{11}
 \glossaryentry{TypeScript?\glossentry{typescript}|setentrycounter[]{page}"\glsnumberformat}{11}
-\glossaryentry{npm?\glossentry{npm}|setentrycounter[]{page}"\glsnumberformat}{11}
-\glossaryentry{Vue.js?\glossentry{vue}|setentrycounter[]{page}"\glsnumberformat}{11}
-\glossaryentry{Vuetify?\glossentry{vuetify}|setentrycounter[]{page}"\glsnumberformat}{11}
+\glossaryentry{.NET 6.0?\glossentry{net}|setentrycounter[]{page}"\glsnumberformat}{11}
+\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{11}
 \glossaryentry{TypeScript?\glossentry{typescript}|setentrycounter[]{page}"\glsnumberformat}{11}
-\glossaryentry{Pinia-Store?\glossentry{pinia}|setentrycounter[]{page}"\glsnumberformat}{11}
-\glossaryentry{Vue.js?\glossentry{vue}|setentrycounter[]{page}"\glsnumberformat}{11}
-\glossaryentry{Vuetify?\glossentry{vuetify}|setentrycounter[]{page}"\glsnumberformat}{11}
-\glossaryentry{npm?\glossentry{npm}|setentrycounter[]{page}"\glsnumberformat}{11}
+\glossaryentry{Dependency Injection?\glossentry{di}|setentrycounter[]{page}"\glsnumberformat}{11}
+\glossaryentry{Linter?\glossentry{Linter}|setentrycounter[]{page}"\glsnumberformat}{11}
+\glossaryentry{Vuetify?\glossentry{vuetify}|setentrycounter[]{page}"\glsnumberformat}{12}
+\glossaryentry{npm?\glossentry{npm}|setentrycounter[]{page}"\glsnumberformat}{12}
 \glossaryentry{Vue.js?\glossentry{vue}|setentrycounter[]{page}"\glsnumberformat}{12}
 \glossaryentry{HTML?\glossentry{HTML}|setentrycounter[]{page}"\glsnumberformat}{12}
 \glossaryentry{Pinia-Store?\glossentry{pinia}|setentrycounter[]{page}"\glsnumberformat}{12}
 \glossaryentry{Javascript-fetch?\glossentry{fetch}|setentrycounter[]{page}"\glsnumberformat}{12}
+\glossaryentry{NSwag?\glossentry{NSwag}|setentrycounter[]{page}"\glsnumberformat}{12}
 \glossaryentry{HTTP?\glossentry{HTTP}|setentrycounter[]{page}"\glsnumberformat}{12}
-\glossaryentry{Pinia-Store?\glossentry{pinia}|setentrycounter[]{page}"\glsnumberformat}{12}
-\glossaryentry{.NET 6.0?\glossentry{net}|setentrycounter[]{page}"\glsnumberformat}{12}
-\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{12}
-\glossaryentry{Automapper?\glossentry{automapper}|setentrycounter[]{page}"\glsnumberformat}{13}
+\glossaryentry{Pinia-Store?\glossentry{pinia}|setentrycounter[]{page}"\glsnumberformat}{13}
 \glossaryentry{Domain-Driven Design?\glossentry{ddd}|setentrycounter[]{page}"\glsnumberformat}{13}
 \glossaryentry{Domain-Driven Design?\glossentry{ddd}|setentrycounter[]{page}"\glsnumberformat}{13}
 \glossaryentry{Dependency Injection?\glossentry{di}|setentrycounter[]{page}"\glsnumberformat}{13}
