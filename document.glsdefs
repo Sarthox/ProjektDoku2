@@ -1,0 +1,252 @@
+\glsdefs@newdocentry{Kubernetes}%
+{%
+name={Kubernetes},%
+sort={Kubernetes},%
+type={main},%
+first={Kubernetes},%
+firstplural={Kubernetess},%
+text={Kubernetes},%
+plural={Kubernetess},%
+description={(Beschreibung für Kubernetes)},%
+descriptionplural={(Beschreibung für Kubernetes)},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{vue}%
+{%
+name={Vue.js 3},%
+sort={Vue.js 3},%
+type={main},%
+first={Vue.js 3},%
+firstplural={Vue.js 3s},%
+text={Vue.js 3},%
+plural={Vue.js 3s},%
+description={Ein clientseitiges Javascript-Framework nach dem Model-View-ViewModel-Entwurfsmuster für das Erstellen von Webanwendungen},%
+descriptionplural={Ein clientseitiges Javascript-Framework nach dem Model-View-ViewModel-Entwurfsmuster für das Erstellen von Webanwendungen},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{vuetify}%
+{%
+name={Vuetify},%
+sort={Vuetify},%
+type={main},%
+first={Vuetify},%
+firstplural={Vuetifys},%
+text={Vuetify},%
+plural={Vuetifys},%
+description={Eine Vue.js Oberflächenkomponentenbibliothek},%
+descriptionplural={Eine Vue.js Oberflächenkomponentenbibliothek},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{typescript}%
+{%
+name={TypeScript},%
+sort={TypeScript},%
+type={main},%
+first={TypeScript},%
+firstplural={TypeScripts},%
+text={TypeScript},%
+plural={TypeScripts},%
+description={Eine typsichere Erweiterung von JavaScript},%
+descriptionplural={Eine typsichere Erweiterung von JavaScript},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{npm}%
+{%
+name={npm},%
+sort={npm},%
+type={main},%
+first={npm},%
+firstplural={npms},%
+text={npm},%
+plural={npms},%
+description={Ein Paketmanager für Node.js Pakete},%
+descriptionplural={Ein Paketmanager für Node.js Pakete},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{pinia}%
+{%
+name={Pinia-Store},%
+sort={Pinia-Store},%
+type={main},%
+first={Pinia-Store},%
+firstplural={Pinia-Stores},%
+text={Pinia-Store},%
+plural={Pinia-Stores},%
+description={Eine Datenzustandsverwaltung für Vue.js},%
+descriptionplural={Eine Datenzustandsverwaltung für Vue.js},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{HTTP}%
+{%
+name={HTTP},%
+sort={HTTP},%
+type={main},%
+first={HTTP},%
+firstplural={HTTPs},%
+text={HTTP},%
+plural={HTTPs},%
+description={Hypertext Transfer Protocol; Protokoll für Datenübertragung},%
+descriptionplural={Hypertext Transfer Protocol; Protokoll für Datenübertragung},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{fetch}%
+{%
+name={fetch},%
+sort={fetch},%
+type={main},%
+first={fetch},%
+firstplural={fetchs},%
+text={fetch},%
+plural={fetchs},%
+description={Asynchroner Rest-Aufruf an eine Schnittstelle},%
+descriptionplural={Asynchroner Rest-Aufruf an eine Schnittstelle},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{HTML}%
+{%
+name={HTML},%
+sort={HTML},%
+type={main},%
+first={HTML},%
+firstplural={HTMLs},%
+text={HTML},%
+plural={HTMLs},%
+description={Hypertext markup language},%
+descriptionplural={Hypertext markup language},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+

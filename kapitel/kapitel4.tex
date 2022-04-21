@@ -1,16 +1,22 @@
 \newpage
 \section{Entwurfsphase}
 \label{entwurfsphase}
+Der \ac{OTR} ist schon lange in Entwurf und wurde 
 
+\begin{comment}
+	Die Kommunikation zwischen Front- und Backend wird durch REST-API Aufrufe realisiert. Um die Daten synchron zu halten wird jede Änderung im Frontend in den \gls{localstorage} des Browsers geschrieben und zeitgleich per HTTP-JSON-PATCH Aufruf ans Backend weitergesendet. Das Backend speichert die neuen oder geänderten Daten im Cache und führt wenn möglich eine Berechnung sowie Validierung durch. Die berechneten Beiträge und Validierungsergebnisse werden anschließend zurückgesendet. Alle Schnittstellen sowie \ac{DTO} werden beim Bauen des Backends automatisch für das Frontend generiert.\\
+	Als Versionsverwaltung für dieses Projekt wird \gls{git} mit \gls{gitflow} genutzt. Das \ac{CICD} wird mittels \gls{gitlab} Pipelines realisiert, also eine Möglichkeit automatisch nach jeder Änderung das Projekt zu bauen, zu testen und zu veröffentlichen. Veröffentlicht wird der \ac{OTR} in einem \gls{k8s}-Cluster. Somit muss vorher ein Dockerimage gebaut werden um es dann in einem Container laufen zu lassen. Für jeden Feature-, Develop- und Masterbranch im Git wird jeweils eine eigene Instanz im \gls{k8s} Cluster erstellt, so dass man jeden Stand auf dem Testsystem testen kann.
+\end{comment}
 \subsection{Zielplattform}
 \label{zielplattform}
-
+Das gesamte Projekt soll in einem \gls{Container} innerhalb eines \gls{k8s} Cluster laufen. Demnach ist die Zielplattform eine Linuxdistribution. Durch \gls{k8s} besteht ein Loadbalancing, falls zu viele Anfragen gleichzeitig reinkommen. Außerdem wird durch die Gitlab Pipeline \ac{cicd} ermöglicht und in Kombination mit \gls{helm} wird das Veröffentlichen neuer Versionen stark vereinfacht.
 \subsection{Architekturdesign}
 \label{architekturdesign}
-
+Die Backend Architektur besteht aus Microservices nach dem \gls{ddd}-Pattern. Außerdem wird für die Datenpersistenz das \gls{repopattern}-Pattern benutzt. Im Frontend werden Komponenten benutzt, welche ihre Daten über eine zentrale Datenzustandsverwaltung beziehen. Die Kommunikation zwischen Front- und Backend geschieht über \gls{REST}-Aufrufe. Daten aus dem Frontend werden per JSONPatch Protokoll und demnach über die HTTP-Patch-Methode übermittelt. Dadurch können Änderungen auch kleinteilig synchronisiert und persistiert werden.
 \subsection{Entwurf der Benutzeroberfläche}
 \label{benutzeroberfläche}
-
+Der designseitige Entwurf der Benutzeroberfläche wurde durch die Marketing-Abteilung per Mockups übernommen. Diese mussten allerdings nicht eins zu eins umgesetzt werden, sondern konnten in Kombination mit den Corporate-Design-Vorlagen als Richtlinie genutzt werden. Außerdem gab es wöchentliche Absprache sowie Absprachen mit einem externen Dienstleister in denen speziell das Design abgestimmt wurde. Die Logik der Benutzeroberfläche und die technische Umsetzung wurde innerhalb des Entwicklerteams durch Prototyping erarbeitet.\\
+Dadurch musste für die Fußzeilenkomponente speziell keine eigene Logik oder Design entworfen werden, es wurde anhand des Entwurfs für das Gesamtprojekt bearbeitet.
 \subsection{Datenmodell}
 \label{datenmodell}
 
@@ -19,3 +25,5 @@
 
 \subsection{Maßnahmen zur Qualitätssicherung}
 \label{qualitaetssicherung}
+Durch die Arbeit mit Gitflow wurde jede Unteraufgabe in einem eigenem Gitbranch bearbeitet. Diese Branches werden erst nach Codereviews vom Entwicklerteam in den develop-Branch gemerged. \marginline{git ausdrücke benutzen???} Automatisch laufen durch die Gitlab Pipeline Unittests im Front- und Backend. Im Backend habe ich die bestehenden Unittests erweitert um neu implementeirte Logik zu testen. Zu dem wurde im Frontend ein \gls{Linter} konfiguriert.\\
+Wenn eine Änderung auf den Developbranch gepusht wurde wird diese von einem anderen Entwickler getestet. Außerdem gibt es weitere Mitarbeiter außerhalb des Entwicklerteams die regelmäßig auf dem Testsystem Blackbox-Akzeptanztests durchführen.

@@ -2,14 +2,12 @@
 \documentclass[a4paper,12pt,headsepline,hidelinks]{scrartcl}
 \usepackage{acronym}
 \usepackage{comment}
-\usepackage[table]{xcolor}
-
+\usepackage[table, xcdraw]{xcolor}
 \usepackage[
 automark, % Kapitelangaben in Kopfzeile automatisch erstellen
 headsepline, % Trennlinie unter Kopfzeile
 ilines % Trennlinie linksbündig ausrichten
 ]{scrlayer-scrpage}
-
 % Kopf- und Fußzeilen ----------------------------------------------------------
 \pagestyle{scrheadings}
 % chapterpagestyle gibt es nicht in scrartcl
@@ -135,9 +133,10 @@ ilines % Trennlinie linksbündig ausrichten
 % Indexerstellubg
 \makeindex
 
-% Abkürzungsverzeichnis
-%\usepackage{glossaries}
-%\makeglossaries
+% Glossar
+\usepackage{glossaries}
+\makeglossaries
+\input{glossar}
 
 \begin{document}
 
@@ -169,7 +168,9 @@ ilines % Trennlinie linksbündig ausrichten
 \section*{\abkvz}
 \markboth{\abkvz}{\abkvz}
 \input{abkuerzungen}
-%\printglossaries
+
+\newpage
+\printglossaries
 
 % Kapitel
 \clearpage
