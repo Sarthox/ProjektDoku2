@@ -1,4 +1,3 @@
-\newpage
 % Einleitung
 
 \section{Einleitung}
@@ -32,7 +31,7 @@ Beim Speichern eines Angebots sollen alle im \ac{OTR} eingegebenen Daten im soge
 Die \ac{KM} bietet auch \ac{OTR} außerhalb des Maklerportals an. Für diese Rechner ist dann keine Angebots- oder Kopiespeicherung vorgesehen, dementsprechend sind die Schaltflächen dort nicht vorhanden. \\
 
 % Drucken
-Die Druckenfunktionalität wird durch zwei Schaltflächen abgebildet, einen um ein Angebot zu drucken, der zweite für den Antrag. Ein Angebot wird z.B. dem Endkunden vom Makler unterbreitet und ist, genau wie der Antrag, ein verbindliches Dokument mit welchem ein Versicherungsvertrag abgeschlossen werden kann. Die Funktionalität wird häufig genutzt und ist damit wichtig. Ein Dokument soll dann gedruckt werden können, wenn Beiträge erfolgreich berechnet wurden. Dafür müssen alle berechnungsrelevanten Angaben getroffen worden sein.
+Die Druckenfunktionalität wird durch zwei Schaltflächen abgebildet, eine um ein Angebot zu drucken, die zweite für den Antrag. Ein Angebot wird z.B. dem Endkunden vom Makler unterbreitet und ist, genau wie der Antrag, ein verbindliches Dokument mit welchem ein Versicherungsvertrag abgeschlossen werden kann. Die Funktionalität wird häufig genutzt und ist damit wichtig. Ein Dokument soll dann gedruckt werden können, wenn Beiträge erfolgreich berechnet wurden. Dafür müssen alle berechnungsrelevanten Angaben getroffen worden sein.
 Die Schaltflächen sind bis das geschehen ist deaktiviert und werden reaktiv aktiviert. Außerdem kann es sein, dass für einen Tarif der Angebot- oder Antragsdruck deaktiviert ist. Dementsprechend sind die Schaltflächen aktiviert, oder nicht aktiviert.  Das Drucken ist dabei eigentlich das Herunterladen eines PDF-Dokumentes, damit der Makler dieses auch per E-Mail verschicken oder selber ausdrucken kann. Das Dokument wird von einem angebundenem System anhand der Daten in XML-Format generiert.
 
 %Versand
@@ -44,8 +43,8 @@ Die Motivation hinter diesem Projekt begründet sich in der einfachen Erweiterba
 Die Fußzeile ist eine Komponente die in allen bestehenden Produkten und zukünftig kommenden Produkten vorhanden sein muss. Die Platzierung der gegebenen Funktionalitäten in die Fußzeile bietet sich dafür gut an, da sie unabhängig von dem Kontext der Rest der Webseite funktionieren soll.
 \subsection{Projektschnittstellen}
 \label{projektschnittstellen}
-Das Backend hat Schnittstellen zu einigen Systemen. Es gibt das \ac{TG}, welches den Einstiegspunkt von Extern zu den Online Tarifrechnern darstellt. Dieses sowie der \ac{OTR} benutzt das \ac{TRG}, welches als REST-Schnittstelle funktioniert um unter anderem Konfigurationen für Tarife oder das Speichern von Angeboten anzubieten.
-Eine weitere Schnittstelle die von der Fußzeilenkomponente genutzt werden ist der PDFToolsservice, welcher die Generierung von PDF-Dokumenten übernimmt. Die Fußzeile sowie alle Komponenten im Frontend bekommen ihre Daten über den \gls{localstorage} des Browsers (Vue.js Pinia Store) geliefert.\\
+Das Backend hat Schnittstellen zu einigen Systemen. Es gibt das \ac{TG}, welches den Einstiegspunkt von Extern zu den \ac{OTR} darstellt. Dieses sowie der \ac{OTR} benutzt das \ac{TRG}, welches als REST-Schnittstelle funktioniert um unter anderem Konfigurationen für Tarife oder das Speichern von Angeboten anzubieten.
+Eine weitere Schnittstelle die von der Fußzeilenkomponente genutzt werden ist der PDFToolsservice, welcher die Generierung von PDF-Dokumenten übernimmt. Die Fußzeile sowie alle Komponenten im Frontend bekommen ihre Daten über den \gls{localstorage} des Browsers (\gls{vue} \gls{pinia}) geliefert.\\
 Das Maklerportal ist eine Webseite an der sich Makler anmelden können, wo sie den \ac{OTR} aufrufen können, Übersichten über ihr Kundenbestand haben und noch vieles mehr. Zu dem können dort auch gespeicherte Angebote eingesehen, bearbeitet und mit einem \ac{OTR} aufgerufen werden.\\
 Der \ac{OTR} wird vor allem von Maklern benutzt um Tarife für ihre Endkunden auszurechnen.
 

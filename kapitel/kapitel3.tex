@@ -1,4 +1,3 @@
-\newpage
 \section{Analysephase}
 \label{analysephase}
 
@@ -8,13 +7,13 @@
 evtl alte otrs mit nutzwertanalyse vergleichen?
 \end{comment}
 Die \ac{KM} stellt den Maklern \ac{OTR} zur Verfügung. Zur Zeit gibt es mehrere Generationen an \ac{OTR}. Die älteste Generation ist mit PHP umgesetzt und hat keine moderne Benutzeroberfläche. Die bis heute neuste \ac{OTR} Generation ist im Grundaufbau wie diese Neuentwicklung aufgebaut mit einem .NET-Backend und einem Vue.js Frontend. Allerdings stellte sich bei dem Einführen neuer Produkte heraus, dass diese sich nicht einfach in diesen \ac{OTR} einbinden ließ. \\
-Demnach existieren funktionale \ac{OTR}, die beim Vertrieb von Versicherungsprodukten helfen, allerdings sind diese nicht intuitiv nutzbar und auf einem alten Corporate-Design sowie für den Entwickler schwierig zu warten und zu erweitern.
+Demnach existieren funktionale \ac{OTR}, die beim Vertrieb von Versicherungsprodukten helfen, allerdings sind diese nicht intuitiv nutzbar und auf einem alten Corporate-Design aufgebaut sowie für den Entwickler schwierig zu warten und zu erweitern.
 
 \subsection{'Make, Buy, or Reuse' - Analyse}
 \label{makeOrBuy}
 
 Dadurch, dass die \ac{KM} neue und innovative Versicherungskonzepte auf den Markt bringt, eignen sich sogenannte Baukastenrechner nicht für diese Tarife. Die Vorlagen dieser Rechner sind nicht so individuell gestaltbar wie die \ac{KM} es benötigt. So können z.B. individuelle Leistungen für den Endkunden nicht zur Auswahl stehen, da diese in einem Baukastenrechner nicht umsetzbar wären.\\
-Da es schon ältere Generationen an \ac{OTR} gibt, wäre auch eine Überlegung einfach eine ältere Onlinetarifrechnerbasis weiter zu benutzen anstatt einen neuen einzuführen. Die älteste Generation ist allerdings technologisch nicht tragbar und muss grundlegend erneuert werden. Der neuste \ac{OTR} sollte die Grundlage werden, allerdings ist beim umsetzen von weiteren Produkten und Leistungen aufgefallen, dass dieser Architektonische Fehler hat, so dass dieser nicht geeignet ist.\\
+Da es schon ältere Generationen an \ac{OTR} gibt, wäre auch eine Überlegung einfach eine ältere Onlinetarifrechnerbasis weiter zu benutzen anstatt einen neuen einzuführen. Die älteste Generation ist allerdings technologisch nicht tragbar und muss grundlegend erneuert werden. Der neuste \ac{OTR} sollte die Grundlage werden, allerdings ist beim umsetzen von weiteren Produkten und Leistungen aufgefallen, dass dieser architektonische Fehler hat, so dass dieser nicht geeignet ist.\\
 In der folgenden Nutzwertanalyse wurden die verschiedenen \ac{OTR} miteinander verglichen. Hierbei hab ich mich für die Kriterien Aussehen, Aktualität der Technologie, bzw. die Zukunftssicherheit, Erweiterbarkeit und Anpassbarkeit entschieden. Erweiterbarkeit und Anpassbarkeit haben eine große Gewichtung, da dies für die \ac{KM} aufgrund individueller Tarife aber auch für die Entwicklung in der Mariosoft, sehr wichtig ist. Ebenso ist die Zukunftssicherheit und die Aktualität der eingesetzten Technologien wichtig. Weniger relevant ist das Aussehen der Benutzeroberfläche, trotzdem fließt diese in die Bewertung ein, da dieser Punkt für den Endkunden wichtig ist. Die Bewertung geht von 0-10 Punkten, wobei 10 die best möglichste Bewertung ist.\\
 \\
 
@@ -33,11 +32,9 @@ In der folgenden Nutzwertanalyse wurden die verschiedenen \ac{OTR} miteinander v
 
 
 Der Rechner 'Universal' ist in PHP programmiert, einer Programmiersprache mit welcher in der Mariosoft nicht mehr weiter entwickelt werden soll. Das nötige Personal mit PHP-Fachwissen fehlt. Außerdem wird das verwendete Framework nicht mehr unterstützt und das Update auf eine neuere Version bringt zu viele Breakingchanges mit sich. Die Erweiterbarkeit und Anpassbarkeit ist bei diesem Rechner auch eingeschränkt, da das Frontend anhand von XML-Vorlagen vorgegeben wird. Dadurch ist es schwierig Besonderheiten bei einigen Tarifen umzusetzen und diese zu warten. Die Oberfläche ist sehr altmodisch. \\
-Hingegen läuft der \ac{OTR} 'Spirit' auf einer neuer Technologie, ähnlich dem neuen \ac{OTR}. Das Backend ist eine .NET 5.0 API und das Frontend eine Vue.js 2 \ac{SAP}. Dieser Rechner wurde zwar mit einem generischem Ansatz geplant, allerdings lief die Logik schon beim Einführen des zweiten Tarifs zu weit auseinander. So wurde unter anderem eine andere Datenhaltungsmethode benutzt und die Struktur im Frontend war zu spezifisch zum ursprünglichen Tarif. Dadurch ist die Implementierung neuer Tarife nicht einheitlich und kompliziert.
+Hingegen läuft der \ac{OTR} 'Spirit' auf einer neuer Technologie, ähnlich dem neuen \ac{OTR}. Das Backend ist eine .NET 5.0 API und das Frontend eine Vue.js 2 \ac{SPA}. Dieser Rechner wurde zwar mit einem generischem Ansatz geplant, allerdings lief die Logik schon beim Einführen des zweiten Tarifs zu weit auseinander. So wurde unter anderem eine andere Datenhaltungsmethode benutzt und die Struktur im Frontend war zu spezifisch zum ursprünglichen Tarif. Dadurch ist die Implementierung neuer Tarife nicht einheitlich und kompliziert.
 
 Der neue \ac{OTR} soll ein universeller Ansatz werden um alle zukünftigen Produkte gleich abzubilden. Durch die aktuellsten Technologien wird eine gewisse Langlebigkeit garantiert und durch den modularen und generischen Ansatz ist es einfach neue Produkte abzubilden. Durch ein Corporate-Design und die Einbindung der Marketing-Abteilung in der Konzeption der Benutzeroberfläche ist diese anschaulicher und benutzerfreundlicher.
-
-
 \subsection{Projektkosten}
 \label{projektkosten}
 Die Kosten des Gesamtprojekts, also der kompletten \ac{OTR}-Basis, belaufen sich auf ca. 80.000-100.000€. Dazu gehören allerdings mehrere Nebeneffekte die aus dem Gesamtprojekt resultieren. So wurde im Rahmen des \ac{OTR}s die \ac{CICD} Pipeline in \gls{gitlab} neu aufgesetzt. Außerdem wurde ein einheitliches Corporate-Design eingeführt, an welchem die Marketingabteilung gearbeitet hat. Als erster Tarif in dem \ac{OTR} wird eine Betriebshaftpflichtversicherung geplant, welche ausgearbeitet werden musste. Dazu kommt, dass das Bestandsführungssystem für die Betriebshaftpflichtversicherung konfiguriert werden muss.\\
@@ -55,7 +52,16 @@ Allgemeine regelmäßige Anforderungsabsprachen mit Auftraggeber:  \\
 5 Std * 1 Person *  130€/Std = 650€\\
 
 = 8850€ an Kosten für die Fußzeilenkomponente.
-\subsection{Amortisationsdauer}
+\subsection{Amortisationsrechnung}
 \label{amortisationsdauer}
-
+Obwohl das Teilprojekt zwar Funktionen die für den Abschluss eines Versicherungsproduktes wichtig sind beinhaltet, kann der Nutzen nicht einzeln berechnet werden. Aufgrund der in \ref{projektkosten} \nameref{projektkosten} aufgeführten Gesamtkosten, müssten ca. 100.000€ erwirtschaftet werden damit sich der \ac{OTR} rentiert. Dazu kommen allerdings viele Synergieeffekte, wie z.B. Zeitersparnisse bei der Entwicklung zukünftiger Versicherungsprodukte (s. \ref{projektkosten} \nameref{projektkosten}) die sich schwer berechnen lassen. Zeitgleich zum \ac{OTR} entstand eine Betriebshaftpflichtversicherung, anhand welcher die Nutzen berechnet werden können.\\
+Ausgehend davon, dass die \ac{KM} durch einen Vertrag 40€ pro Jahr verdient, müssten 2500 Verträge mit einer Haltedauer von einem Jahr abgeschlossen werden.\\
+\begin{center}
+	$ \frac{100.000\ \mbox{\euro}}{40\ \mbox{\euro}/\ Vertrag/\ Jahr} = 2500\ Vertr"age $\\
+\end{center}
+Allerdings kann man davon ausgehen, dass eine durchschnittliche Haltedauer von drei Jahren besteht. Damit sind 833 abgeschlossene Betriebshaftpflichtversicherungsverträge im ersten Jahr ausreichend um die Gesamtkosten des Projekts zu decken.
+\begin{center}
+	$ \frac{2500\ Vertr"age}{3\ Jahre} \approx833\ Vertr"age\ *\ 3\ Jahre\ *\ 40\ \mbox{\euro}\ \approx100.000\ \mbox{\euro} $\\
+\end{center}
+ Da die Betriebshaftpflichtversicherung ein neues Produkt der \ac{KM} ist, bestehen nicht genug Erfahrungswerte um genaue Angaben zu treffen. Anhand von bestehenden Versicherungsprodukten könnte dies allerdings eine realistische Amortisationsdauer sein.
 
