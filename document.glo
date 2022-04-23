@@ -1,3 +1,4 @@
+\glossaryentry{.NET?\glossentry{net}|setentrycounter[]{page}"\glsnumberformat}{1}
 \glossaryentry{Vue.js?\glossentry{vue}|setentrycounter[]{page}"\glsnumberformat}{1}
 \glossaryentry{Vuetify?\glossentry{vuetify}|setentrycounter[]{page}"\glsnumberformat}{1}
 \glossaryentry{Vuetify?\glossentry{vuetify}|setentrycounter[]{page}"\glsnumberformat}{1}
@@ -9,6 +10,10 @@
 \glossaryentry{Localstorage?\glossentry{localstorage}|setentrycounter[]{page}"\glsnumberformat}{3}
 \glossaryentry{Vue.js?\glossentry{vue}|setentrycounter[]{page}"\glsnumberformat}{3}
 \glossaryentry{Pinia-Store?\glossentry{pinia}|setentrycounter[]{page}"\glsnumberformat}{3}
+\glossaryentry{Vue.js?\glossentry{vue}|setentrycounter[]{page}"\glsnumberformat}{5}
+\glossaryentry{PHP?\glossentry{php}|setentrycounter[]{page}"\glsnumberformat}{6}
+\glossaryentry{PHP?\glossentry{php}|setentrycounter[]{page}"\glsnumberformat}{6}
+\glossaryentry{PHP?\glossentry{php}|setentrycounter[]{page}"\glsnumberformat}{6}
 \glossaryentry{GitLab?\glossentry{gitlab}|setentrycounter[]{page}"\glsnumberformat}{7}
 \glossaryentry{Container?\glossentry{Container}|setentrycounter[]{page}"\glsnumberformat}{8}
 \glossaryentry{Kubernetes?\glossentry{k8s}|setentrycounter[]{page}"\glsnumberformat}{8}
@@ -17,15 +22,15 @@
 \glossaryentry{Domain-Driven Design?\glossentry{ddd}|setentrycounter[]{page}"\glsnumberformat}{8}
 \glossaryentry{Repository-Pattern?\glossentry{repopattern}|setentrycounter[]{page}"\glsnumberformat}{8}
 \glossaryentry{Localstorage?\glossentry{localstorage}|setentrycounter[]{page}"\glsnumberformat}{8}
-\glossaryentry{Repository-Pattern?\glossentry{repopattern}|setentrycounter[]{page}"\glsnumberformat}{8}
+\glossaryentry{Repository-Pattern?\glossentry{repopattern}|setentrycounter[]{page}"\glsnumberformat}{9}
 \glossaryentry{Repository-Pattern?\glossentry{repopattern}|setentrycounter[]{page}"\glsnumberformat}{9}
 \glossaryentry{Distributed Cache?\glossentry{distributedcache}|setentrycounter[]{page}"\glsnumberformat}{9}
 \glossaryentry{Pinia-Store?\glossentry{pinia}|setentrycounter[]{page}"\glsnumberformat}{9}
-\glossaryentry{Vue.js?\glossentry{vue}|setentrycounter[]{page}"\glsnumberformat}{9}
-\glossaryentry{Vuetify?\glossentry{vuetify}|setentrycounter[]{page}"\glsnumberformat}{9}
-\glossaryentry{TypeScript?\glossentry{typescript}|setentrycounter[]{page}"\glsnumberformat}{9}
-\glossaryentry{npm?\glossentry{npm}|setentrycounter[]{page}"\glsnumberformat}{9}
-\glossaryentry{Vue.js?\glossentry{vue}|setentrycounter[]{page}"\glsnumberformat}{9}
+\glossaryentry{Vue.js?\glossentry{vue}|setentrycounter[]{page}"\glsnumberformat}{10}
+\glossaryentry{Vuetify?\glossentry{vuetify}|setentrycounter[]{page}"\glsnumberformat}{10}
+\glossaryentry{TypeScript?\glossentry{typescript}|setentrycounter[]{page}"\glsnumberformat}{10}
+\glossaryentry{npm?\glossentry{npm}|setentrycounter[]{page}"\glsnumberformat}{10}
+\glossaryentry{Vue.js?\glossentry{vue}|setentrycounter[]{page}"\glsnumberformat}{10}
 \glossaryentry{Vuetify?\glossentry{vuetify}|setentrycounter[]{page}"\glsnumberformat}{10}
 \glossaryentry{TypeScript?\glossentry{typescript}|setentrycounter[]{page}"\glsnumberformat}{10}
 \glossaryentry{.NET?\glossentry{net}|setentrycounter[]{page}"\glsnumberformat}{10}
