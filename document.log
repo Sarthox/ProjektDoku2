@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.4)  23 APR 2022 19:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.4)  23 APR 2022 19:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1114,7 +1114,7 @@ Package pdftex.def Info: bilder/k&m.png  used on input line 172.
  [3] (document.gls
 File: bilder/k&m.png Graphic file (type png)
 <use bilder/k&m.png>
-Package pdftex.def Info: bilder/k&m.png  used on input line 71.
+Package pdftex.def Info: bilder/k&m.png  used on input line 68.
 (pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
  [4])
 File: bilder/k&m.png Graphic file (type png)
@@ -1174,18 +1174,18 @@ Package pdftex.def Info: bilder/k&m.png  used on input line 49.
 [2]) (kapitel/kapitel2.tex Excluding 'comment' comment.
 File: bilder/k&m.png Graphic file (type png)
 <use bilder/k&m.png>
-Package pdftex.def Info: bilder/k&m.png  used on input line 48.
+Package pdftex.def Info: bilder/k&m.png  used on input line 49.
 (pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
  [3]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 5
-8.
+9.
 
 (C:\Users\Jakob\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 File: bilder/k&m.png Graphic file (type png)
 <use bilder/k&m.png>
-Package pdftex.def Info: bilder/k&m.png  used on input line 61.
+Package pdftex.def Info: bilder/k&m.png  used on input line 62.
 (pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
 
 [4]) (kapitel/kapitel3.tex Excluding 'comment' comment.
@@ -1237,13 +1237,13 @@ File: bilder/k&m.png Graphic file (type png)
 Package pdftex.def Info: bilder/k&m.png  used on input line 10.
 (pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
  [8]
-Underfull \hbox (badness 10000) in paragraph at lines 21--27
+Underfull \hbox (badness 10000) in paragraph at lines 21--26
 
  []
 
 File: bilder/k&m.png Graphic file (type png)
 <use bilder/k&m.png>
-Package pdftex.def Info: bilder/k&m.png  used on input line 27.
+Package pdftex.def Info: bilder/k&m.png  used on input line 26.
 (pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
 [9]) (kapitel/kapitel5.tex
 File: bilder/k&m.png Graphic file (type png)
@@ -1263,19 +1263,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-File: bilder/k&m.png Graphic file (type png)
-<use bilder/k&m.png>
-Package pdftex.def Info: bilder/k&m.png  used on input line 16.
-(pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
-[11]
+
 Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
-) (kapitel/kapitel9.tex
 File: bilder/k&m.png Graphic file (type png)
 <use bilder/k&m.png>
-Package pdftex.def Info: bilder/k&m.png  used on input line 1.
+Package pdftex.def Info: bilder/k&m.png  used on input line 19.
+(pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
+[11]) (kapitel/kapitel9.tex
+File: bilder/k&m.png Graphic file (type png)
+<use bilder/k&m.png>
+Package pdftex.def Info: bilder/k&m.png  used on input line 7.
 (pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
  [12]
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
@@ -1289,7 +1289,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--31
 
 File: bilder/k&m.png Graphic file (type png)
 <use bilder/k&m.png>
-Package pdftex.def Info: bilder/k&m.png  used on input line 36.
+Package pdftex.def Info: bilder/k&m.png  used on input line 37.
 (pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
 [13])
 File: bilder/k&m.png Graphic file (type png)
@@ -1352,11 +1352,11 @@ Package rerunfilecheck Info: File `document.out' has not changed.
 Here is how much of TeX's memory you used:
  27829 strings out of 478582
  525990 string characters out of 2844345
- 1003862 words of memory out of 3000000
+ 1003970 words of memory out of 3000000
  45429 multiletter control sequences out of 15000+600000
  513355 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,25n,112p,10625b,930s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 108i,25n,111p,10625b,924s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
 pdfTeX warning (dest): name{glo:php} has been referenced but does not exist, re
 placed by a fixed one
@@ -1371,9 +1371,9 @@ type1/urw/helvetic/uhvb8a.pfb><C:/Users/Jakob/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/times/utmb8a.pfb><C:/Users/Jakob/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/times/utmr8a.pfb><C:/Users/Jakob/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on document.pdf (23 pages, 358643 bytes).
+Output written on document.pdf (23 pages, 358130 bytes).
 PDF statistics:
- 578 PDF objects out of 1000 (max. 8388607)
+ 575 PDF objects out of 1000 (max. 8388607)
  96 named destinations out of 1000 (max. 500000)
  291 words of extra memory for PDF output out of 10000 (max. 10000000)
 
