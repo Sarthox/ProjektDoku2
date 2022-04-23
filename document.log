@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.4)  22 APR 2022 16:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.4)  22 APR 2022 17:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1026,7 +1026,17 @@ File: bilder/logo_ihkdata.jpg Graphic file (type jpg)
 <use bilder/logo_ihkdata.jpg>
 Package pdftex.def Info: bilder/logo_ihkdata.jpg  used on input line 5.
 (pdftex.def)             Requested size: 331.53555pt x 67.75247pt.
-)
+<bilder/k&m.png, id=4, 680.7834pt x 162.1257pt>
+File: bilder/k&m.png Graphic file (type png)
+<use bilder/k&m.png>
+Package pdftex.def Info: bilder/k&m.png  used on input line 25.
+(pdftex.def)             Requested size: 204.23659pt x 48.63808pt.
+ [1
+
+\openout6 = `document.ist'.
+
+{C:/Users/Jakob/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./bilder/log
+o_ihkdata.jpg> <./bilder/k&m.png>])
 LaTeX Font Info:    Trying to load font information for T1+phv on input line 15
 0.
 
@@ -1070,18 +1080,48 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
-
-[1
-
-\openout6 = `document.ist'.
-
-{C:/Users/Jakob/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./bilder/log
-o_ihkdata.jpg>])
+)
 \tf@toc=\write9
 \openout9 = `document.toc'.
 
- [2] (abkuerzungen.tex) [3] (document.gls [4]) [5]
-(kapitel/kapitel1.tex
+
+[1]
+File: bilder/k&m.png Graphic file (type png)
+<use bilder/k&m.png>
+Package pdftex.def Info: bilder/k&m.png  used on input line 165.
+(pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
+
+
+Package scrlayer-scrpage Warning: \headheight to low.
+(scrlayer-scrpage)                At least 37.37363pt needed,
+(scrlayer-scrpage)                but only 17.0pt found.
+(scrlayer-scrpage)                I'll enlarge \headheight, for further
+(scrlayer-scrpage)                processing, but you should do this yourself,
+(scrlayer-scrpage)                e.g., setting geometry's option
+(scrlayer-scrpage)                `head=37.37363pt'.
+(scrlayer-scrpage)                I'll also decrease \topmargin on input line 1
+65.
+
+
+Overfull \vbox (20.37363pt too high) has occurred while \output is active []
+
+
+[2] (abkuerzungen.tex)
+File: bilder/k&m.png Graphic file (type png)
+<use bilder/k&m.png>
+Package pdftex.def Info: bilder/k&m.png  used on input line 172.
+(pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
+ [3] (document.gls
+File: bilder/k&m.png Graphic file (type png)
+<use bilder/k&m.png>
+Package pdftex.def Info: bilder/k&m.png  used on input line 71.
+(pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
+ [4])
+File: bilder/k&m.png Graphic file (type png)
+<use bilder/k&m.png>
+Package pdftex.def Info: bilder/k&m.png  used on input line 176.
+(pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
+ [5] (kapitel/kapitel1.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--10
 
  []
@@ -1105,6 +1145,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--28
 
  []
 
+File: bilder/k&m.png Graphic file (type png)
+<use bilder/k&m.png>
+Package pdftex.def Info: bilder/k&m.png  used on input line 30.
+(pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.30 B
+      eim Speichern eines Angebots sollen alle im \ac{OTR} eingegebenen Date...
 [1
 
 ]
@@ -1116,14 +1167,33 @@ Package acronym Info: Label `acro:TG' newly defined as it shall be overridden
 although it is yet undefined on input line 46.
 Package acronym Info: Label `acro:TRG' newly defined as it shall be overridden
 although it is yet undefined on input line 46.
-[2]) (kapitel/kapitel2.tex [3]
+File: bilder/k&m.png Graphic file (type png)
+<use bilder/k&m.png>
+Package pdftex.def Info: bilder/k&m.png  used on input line 50.
+(pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
+[2]) (kapitel/kapitel2.tex
+File: bilder/k&m.png Graphic file (type png)
+<use bilder/k&m.png>
+Package pdftex.def Info: bilder/k&m.png  used on input line 37.
+(pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
+ [3]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 4
 7.
 
 (C:\Users\Jakob\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-[4]) (kapitel/kapitel3.tex Excluding 'comment' comment. [5]
+File: bilder/k&m.png Graphic file (type png)
+<use bilder/k&m.png>
+Package pdftex.def Info: bilder/k&m.png  used on input line 50.
+(pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
+
+[4]) (kapitel/kapitel3.tex Excluding 'comment' comment.
+File: bilder/k&m.png Graphic file (type png)
+<use bilder/k&m.png>
+Package pdftex.def Info: bilder/k&m.png  used on input line 12.
+(pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
+ [5]
 Underfull \hbox (badness 10000) in paragraph at lines 15--19
 
  []
@@ -1138,6 +1208,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--32
 
  []
 
+File: bilder/k&m.png Graphic file (type png)
+<use bilder/k&m.png>
+Package pdftex.def Info: bilder/k&m.png  used on input line 37.
+(pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
 [6]
 Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
@@ -1153,12 +1227,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--59
 
  []
 
-[7]) (kapitel/kapitel4.tex [8]
+File: bilder/k&m.png Graphic file (type png)
+<use bilder/k&m.png>
+Package pdftex.def Info: bilder/k&m.png  used on input line 59.
+(pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
+[7]) (kapitel/kapitel4.tex
+File: bilder/k&m.png Graphic file (type png)
+<use bilder/k&m.png>
+Package pdftex.def Info: bilder/k&m.png  used on input line 13.
+(pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
+ [8]
 Underfull \hbox (badness 10000) in paragraph at lines 21--27
 
  []
 
-[9]) (kapitel/kapitel5.tex [10]
+File: bilder/k&m.png Graphic file (type png)
+<use bilder/k&m.png>
+Package pdftex.def Info: bilder/k&m.png  used on input line 27.
+(pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
+[9]) (kapitel/kapitel5.tex
+File: bilder/k&m.png Graphic file (type png)
+<use bilder/k&m.png>
+Package pdftex.def Info: bilder/k&m.png  used on input line 8.
+(pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
+ [10]
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
@@ -1176,7 +1268,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
-[11]) (kapitel/kapitel9.tex [12]
+File: bilder/k&m.png Graphic file (type png)
+<use bilder/k&m.png>
+Package pdftex.def Info: bilder/k&m.png  used on input line 19.
+(pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
+[11]) (kapitel/kapitel9.tex
+File: bilder/k&m.png Graphic file (type png)
+<use bilder/k&m.png>
+Package pdftex.def Info: bilder/k&m.png  used on input line 7.
+(pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
+ [12]
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
@@ -1186,12 +1287,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--31
 
  []
 
-[13]) [14] (document.bbl
+File: bilder/k&m.png Graphic file (type png)
+<use bilder/k&m.png>
+Package pdftex.def Info: bilder/k&m.png  used on input line 36.
+(pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
+[13])
+File: bilder/k&m.png Graphic file (type png)
+<use bilder/k&m.png>
+Package pdftex.def Info: bilder/k&m.png  used on input line 189.
+(pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
+ [14] (document.bbl
 
 LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
                before end of `thebibliography' environment on input line 10.
 
 )
+File: bilder/k&m.png Graphic file (type png)
+<use bilder/k&m.png>
+Package pdftex.def Info: bilder/k&m.png  used on input line 197.
+(pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.I}) has 
 been already used, duplicate ignored
 <to be read again> 
@@ -1203,6 +1318,10 @@ l.197 \clearpage
 \tf@lof=\write10
 \openout10 = `document.lof'.
 
+File: bilder/k&m.png Graphic file (type png)
+<use bilder/k&m.png>
+Package pdftex.def Info: bilder/k&m.png  used on input line 202.
+(pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.II}) has
  been already used, duplicate ignored
@@ -1212,6 +1331,11 @@ l.202 \newpage
                [2
 
 ] (anhang/anhang.tex)
+File: bilder/k&m.png Graphic file (type png)
+<use bilder/k&m.png>
+Package pdftex.def Info: bilder/k&m.png  used on input line 207.
+(pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.III}) ha
 s been already used, duplicate ignored
 <to be read again> 
@@ -1226,13 +1350,13 @@ Package rerunfilecheck Info: File `document.out' has not changed.
 ### simple group (level 1) entered at line 8 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 27795 strings out of 478582
- 525470 string characters out of 2844345
- 1002628 words of memory out of 3000000
- 45395 multiletter control sequences out of 15000+600000
- 516142 words of font info for 89 fonts, out of 8000000 for 9000
+ 27798 strings out of 478582
+ 525555 string characters out of 2844345
+ 1002682 words of memory out of 3000000
+ 45399 multiletter control sequences out of 15000+600000
+ 513355 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,20n,106p,10625b,767s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 108i,25n,112p,10625b,922s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/Jakob/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/b
 ase/8r.enc}<C:/Users/Jakob/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmmi10.pfb><C:/Users/Jakob/AppData/Local/Programs/MiKTeX/fonts/type1/p
@@ -1242,11 +1366,10 @@ TeX/fonts/type1/public/eurosym/feymr10.pfb><C:/Users/Jakob/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Jakob/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Jakob/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Jakob/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Jakob/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on document.pdf (22 pages, 255444 bytes).
+Output written on document.pdf (23 pages, 356482 bytes).
 PDF statistics:
- 569 PDF objects out of 1000 (max. 8388607)
+ 568 PDF objects out of 1000 (max. 8388607)
  95 named destinations out of 1000 (max. 500000)
- 286 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 291 words of extra memory for PDF output out of 10000 (max. 10000000)
 
