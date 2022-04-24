@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.4)  24 APR 2022 20:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.4)  24 APR 2022 20:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1287,23 +1287,28 @@ File: bilder/k&m.png Graphic file (type png)
 <use bilder/k&m.png>
 Package pdftex.def Info: bilder/k&m.png  used on input line 37.
 (pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
-[13]) (document.bbl
+[13])
+File: bilder/k&m.png Graphic file (type png)
+<use bilder/k&m.png>
+Package pdftex.def Info: bilder/k&m.png  used on input line 197.
+(pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
+ [14] (document.bbl
 
 LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
                before end of `thebibliography' environment on input line 10.
 
 ) (anhang/anhang.tex
-<anhang/usecase_footer.png, id=407, 796.9775pt x 673.51625pt>
+<anhang/usecase_footer.png, id=412, 796.9775pt x 673.51625pt>
 File: anhang/usecase_footer.png Graphic file (type png)
 <use anhang/usecase_footer.png>
 Package pdftex.def Info: anhang/usecase_footer.png  used on input line 6.
 (pdftex.def)             Requested size: 469.47083pt x 396.74425pt.
-<anhang/mockup_footer.png, id=409, 1013.28563pt x 39.89906pt>
+<anhang/mockup_footer.png, id=414, 1013.28563pt x 39.89906pt>
 File: anhang/mockup_footer.png Graphic file (type png)
 <use anhang/mockup_footer.png>
 Package pdftex.def Info: anhang/mockup_footer.png  used on input line 11.
 (pdftex.def)             Requested size: 469.45673pt x 18.48528pt.
-<anhang/actual_footer.png, id=410, 1336.995pt x 48.18pt>
+<anhang/actual_footer.png, id=415, 1336.995pt x 48.18pt>
 File: anhang/actual_footer.png Graphic file (type png)
 <use anhang/actual_footer.png>
 Package pdftex.def Info: anhang/actual_footer.png  used on input line 16.
@@ -1311,33 +1316,24 @@ Package pdftex.def Info: anhang/actual_footer.png  used on input line 16.
 )
 File: bilder/k&m.png Graphic file (type png)
 <use bilder/k&m.png>
-Package pdftex.def Info: bilder/k&m.png  used on input line 209.
+Package pdftex.def Info: bilder/k&m.png  used on input line 210.
 (pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.I}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.209 \end{document}
-                     [1]
-File: bilder/k&m.png Graphic file (type png)
-<use bilder/k&m.png>
-Package pdftex.def Info: bilder/k&m.png  used on input line 209.
-(pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
+l.210 \end{document}
+                     [1
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.II}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.209 \end{document}
-                     [2 <./anhang/usecase_footer.png> <./anhang/mockup_footer.p
-ng> <./anhang/actual_footer.png>] (document.aux)
+ <./anhang/usecase_footer.png> <./anhang/mockup_footer.png> <./anhang/actual_fo
+oter.png>] (document.aux)
 Package rerunfilecheck Info: File `document.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27864 strings out of 478582
- 526840 string characters out of 2844345
+ 27865 strings out of 478582
+ 526847 string characters out of 2844345
  1004090 words of memory out of 3000000
  45460 multiletter control sequences out of 15000+600000
  513355 words of font info for 87 fonts, out of 8000000 for 9000
@@ -1357,9 +1353,9 @@ type1/urw/helvetic/uhvb8a.pfb><C:/Users/Jakob/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/times/utmb8a.pfb><C:/Users/Jakob/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/times/utmr8a.pfb><C:/Users/Jakob/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on document.pdf (20 pages, 413717 bytes).
+Output written on document.pdf (20 pages, 413822 bytes).
 PDF statistics:
- 585 PDF objects out of 1000 (max. 8388607)
- 97 named destinations out of 1000 (max. 500000)
+ 586 PDF objects out of 1000 (max. 8388607)
+ 98 named destinations out of 1000 (max. 500000)
  306 words of extra memory for PDF output out of 10000 (max. 10000000)
 
