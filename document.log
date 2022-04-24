@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.4)  24 APR 2022 19:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.4)  24 APR 2022 20:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1047,50 +1047,48 @@ File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 (document.toc
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 3.
+ 4.
 
 (C:\Users\Jakob\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 3.
+ 4.
 
 (C:\Users\Jakob\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 3.
+ 4.
 
 (C:\Users\Jakob\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 3.
+ 4.
 
 (C:\Users\Jakob\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 4
 .
 
 (C:\Users\Jakob\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
 )
 \tf@toc=\write9
 \openout9 = `document.toc'.
 
-
-[1]
 File: bilder/k&m.png Graphic file (type png)
 <use bilder/k&m.png>
-Package pdftex.def Info: bilder/k&m.png  used on input line 172.
+Package pdftex.def Info: bilder/k&m.png  used on input line 159.
 (pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
 
 
@@ -1102,28 +1100,28 @@ Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                e.g., setting geometry's option
 (scrlayer-scrpage)                `head=37.37363pt'.
 (scrlayer-scrpage)                I'll also decrease \topmargin on input line 1
-72.
+59.
 
 
 Overfull \vbox (20.37363pt too high) has occurred while \output is active []
 
 
-[2] (abkuerzungen.tex)
+[1] (document.lof)
+\tf@lof=\write10
+\openout10 = `document.lof'.
+
+ [2] (abkuerzungen.tex) (document.gls
 File: bilder/k&m.png Graphic file (type png)
 <use bilder/k&m.png>
-Package pdftex.def Info: bilder/k&m.png  used on input line 179.
+Package pdftex.def Info: bilder/k&m.png  used on input line 50.
 (pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
- [3] (document.gls
+ [3])
 File: bilder/k&m.png Graphic file (type png)
 <use bilder/k&m.png>
-Package pdftex.def Info: bilder/k&m.png  used on input line 68.
+Package pdftex.def Info: bilder/k&m.png  used on input line 184.
 (pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
- [4])
-File: bilder/k&m.png Graphic file (type png)
-<use bilder/k&m.png>
-Package pdftex.def Info: bilder/k&m.png  used on input line 183.
-(pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
- [5] (kapitel/kapitel1.tex
+ [4]
+(kapitel/kapitel1.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--10
 
  []
@@ -1289,33 +1287,39 @@ File: bilder/k&m.png Graphic file (type png)
 <use bilder/k&m.png>
 Package pdftex.def Info: bilder/k&m.png  used on input line 37.
 (pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
-[13])
-File: bilder/k&m.png Graphic file (type png)
-<use bilder/k&m.png>
-Package pdftex.def Info: bilder/k&m.png  used on input line 196.
-(pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
- [14] (document.bbl
+[13]) (document.bbl
 
 LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
                before end of `thebibliography' environment on input line 10.
 
+) (anhang/anhang.tex
+<anhang/usecase_footer.png, id=407, 796.9775pt x 673.51625pt>
+File: anhang/usecase_footer.png Graphic file (type png)
+<use anhang/usecase_footer.png>
+Package pdftex.def Info: anhang/usecase_footer.png  used on input line 6.
+(pdftex.def)             Requested size: 469.47083pt x 396.74425pt.
+<anhang/mockup_footer.png, id=409, 1013.28563pt x 39.89906pt>
+File: anhang/mockup_footer.png Graphic file (type png)
+<use anhang/mockup_footer.png>
+Package pdftex.def Info: anhang/mockup_footer.png  used on input line 11.
+(pdftex.def)             Requested size: 469.45673pt x 18.48528pt.
+<anhang/actual_footer.png, id=410, 1336.995pt x 48.18pt>
+File: anhang/actual_footer.png Graphic file (type png)
+<use anhang/actual_footer.png>
+Package pdftex.def Info: anhang/actual_footer.png  used on input line 16.
+(pdftex.def)             Requested size: 469.46494pt x 16.91763pt.
 )
 File: bilder/k&m.png Graphic file (type png)
 <use bilder/k&m.png>
-Package pdftex.def Info: bilder/k&m.png  used on input line 204.
+Package pdftex.def Info: bilder/k&m.png  used on input line 209.
 (pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.I}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.204 \clearpage
-                 [1
-
-] (document.lof)
-\tf@lof=\write10
-\openout10 = `document.lof'.
-
+l.209 \end{document}
+                     [1]
 File: bilder/k&m.png Graphic file (type png)
 <use bilder/k&m.png>
 Package pdftex.def Info: bilder/k&m.png  used on input line 209.
@@ -1325,64 +1329,20 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.II}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.209 \newpage
-               [2
-
-] (anhang/anhang.tex
-<anhang/usecase_footer.png, id=423, 796.9775pt x 673.51625pt>
-File: anhang/usecase_footer.png Graphic file (type png)
-<use anhang/usecase_footer.png>
-Package pdftex.def Info: anhang/usecase_footer.png  used on input line 6.
-(pdftex.def)             Requested size: 469.47083pt x 396.74425pt.
-<anhang/mockup_footer.png, id=425, 1013.28563pt x 39.89906pt>
-File: anhang/mockup_footer.png Graphic file (type png)
-<use anhang/mockup_footer.png>
-Package pdftex.def Info: anhang/mockup_footer.png  used on input line 11.
-(pdftex.def)             Requested size: 469.45673pt x 18.48528pt.
-<anhang/actual_footer.png, id=426, 1336.995pt x 48.18pt>
-File: anhang/actual_footer.png Graphic file (type png)
-<use anhang/actual_footer.png>
-Package pdftex.def Info: anhang/actual_footer.png  used on input line 16.
-(pdftex.def)             Requested size: 469.46494pt x 16.91763pt.
-)
-File: bilder/k&m.png Graphic file (type png)
-<use bilder/k&m.png>
-Package pdftex.def Info: bilder/k&m.png  used on input line 214.
-(pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.III}) ha
-s been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.214 \end{document}
-                     [3 <./anhang/usecase_footer.png> <./anhang/mockup_footer.p
-ng>]
-File: bilder/k&m.png Graphic file (type png)
-<use bilder/k&m.png>
-Package pdftex.def Info: bilder/k&m.png  used on input line 214.
-(pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.IV}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.214 \end{document}
-                     [4 <./anhang/actual_footer.png>] (document.aux)
+l.209 \end{document}
+                     [2 <./anhang/usecase_footer.png> <./anhang/mockup_footer.p
+ng> <./anhang/actual_footer.png>] (document.aux)
 Package rerunfilecheck Info: File `document.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
- )
-(\end occurred inside a group at level 1)
-
-### simple group (level 1) entered at line 19 ({)
-### bottom level 
+ ) 
 Here is how much of TeX's memory you used:
  27864 strings out of 478582
- 526825 string characters out of 2844345
+ 526840 string characters out of 2844345
  1004090 words of memory out of 3000000
- 45458 multiletter control sequences out of 15000+600000
+ 45460 multiletter control sequences out of 15000+600000
  513355 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,25n,111p,10625b,926s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 108i,25n,111p,10625b,848s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
 pdfTeX warning (dest): name{glo:php} has been referenced but does not exist, re
 placed by a fixed one
@@ -1397,9 +1357,9 @@ type1/urw/helvetic/uhvb8a.pfb><C:/Users/Jakob/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/times/utmb8a.pfb><C:/Users/Jakob/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/times/utmr8a.pfb><C:/Users/Jakob/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on document.pdf (24 pages, 416710 bytes).
+Output written on document.pdf (20 pages, 413717 bytes).
 PDF statistics:
- 599 PDF objects out of 1000 (max. 8388607)
- 99 named destinations out of 1000 (max. 500000)
+ 585 PDF objects out of 1000 (max. 8388607)
+ 97 named destinations out of 1000 (max. 500000)
  306 words of extra memory for PDF output out of 10000 (max. 10000000)
 

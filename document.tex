@@ -155,6 +155,8 @@ ilines % Trennlinie linksbündig ausrichten
 
 % Inhaltsverzeichnis
 \tableofcontents
+\addcontentsline{toc}{section}{Abbildungsverzeichnis}
+\listoffigures
 \thispagestyle{empty}
 
 %Abstract
@@ -176,7 +178,6 @@ ilines % Trennlinie linksbündig ausrichten
 \markboth{\abkvz}{\abkvz}
 \input{abkuerzungen}
 
-\newpage
 \printglossaries
 
 % Kapitel
@@ -200,13 +201,8 @@ ilines % Trennlinie linksbündig ausrichten
 \renewcommand\refname{Literaturverzeichnis}
 \bibliography{literatur/sammlung}
 
-% Abbildungsverzeichnis
-\clearpage
-\addcontentsline{toc}{section}{Abbildungsverzeichnis}
-\listoffigures
 
-% Anhänge
-\newpage
+
 \onehalfspacing
 %\fancyhead[L]{Anhang}
 \input{anhang/anhang}
