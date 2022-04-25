@@ -26,6 +26,7 @@ ilines % Trennlinie linksbündig ausrichten
 \ifoot{Jakob Schumann}
 \cfoot{}
 \ofoot{\pagemark}
+\setlength{\footskip}{10mm}
 
 % Überschriften nach DIN 5008 in einer Fluchtlinie
 % ------------------------------------------------------------------------------
@@ -114,7 +115,7 @@ ilines % Trennlinie linksbündig ausrichten
 \usepackage{array}
 
 % Zitierweise
-\bibliographystyle{alphadin}
+\bibliographystyle{ieeetr}
 
 % Kein Zwischenraum nach Satzzeichen
 \frenchspacing
@@ -189,7 +190,7 @@ ilines % Trennlinie linksbündig ausrichten
 \clearpage
 \singlespacing
 \pagenumbering{Roman}
-
+\addcontentsline{toc}{section}{Literaturverzeichnis}
 \renewcommand\refname{Literaturverzeichnis}
 \bibliography{literatur/sammlung}
 

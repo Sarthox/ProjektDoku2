@@ -9,9 +9,12 @@
 \glossaryentry{GitLab?\glossentry{gitlab}|setentrycounter[]{page}"\glsnumberformat}{1}
 \glossaryentry{Kubernetes?\glossentry{k8s}|setentrycounter[]{page}"\glsnumberformat}{1}
 \glossaryentry{XML?\glossentry{xml}|setentrycounter[]{page}"\glsnumberformat}{2}
+\glossaryentry{REST?\glossentry{REST}|setentrycounter[]{page}"\glsnumberformat}{2}
 \glossaryentry{Localstorage?\glossentry{localstorage}|setentrycounter[]{page}"\glsnumberformat}{3}
 \glossaryentry{Vue.js?\glossentry{vue}|setentrycounter[]{page}"\glsnumberformat}{3}
 \glossaryentry{Pinia-Store?\glossentry{pinia}|setentrycounter[]{page}"\glsnumberformat}{3}
+\glossaryentry{HTTP?\glossentry{HTTP}|setentrycounter[]{page}"\glsnumberformat}{3}
+\glossaryentry{JSON-PATCH?\glossentry{jsonpatch}|setentrycounter[]{page}"\glsnumberformat}{3}
 \glossaryentry{PHP?\glossentry{php}|setentrycounter[]{page}"\glsnumberformat}{5}
 \glossaryentry{.NET?\glossentry{net}|setentrycounter[]{page}"\glsnumberformat}{5}
 \glossaryentry{Vue.js?\glossentry{vue}|setentrycounter[]{page}"\glsnumberformat}{5}
@@ -33,21 +36,27 @@
 \glossaryentry{Domain-Driven Design?\glossentry{ddd}|setentrycounter[]{page}"\glsnumberformat}{8}
 \glossaryentry{Repository-Pattern?\glossentry{repopattern}|setentrycounter[]{page}"\glsnumberformat}{8}
 \glossaryentry{Localstorage?\glossentry{localstorage}|setentrycounter[]{page}"\glsnumberformat}{8}
+\glossaryentry{HTTP?\glossentry{HTTP}|setentrycounter[]{page}"\glsnumberformat}{8}
+\glossaryentry{JSON-PATCH?\glossentry{jsonpatch}|setentrycounter[]{page}"\glsnumberformat}{8}
+\glossaryentry{JSON-PATCH?\glossentry{jsonpatch}|setentrycounter[]{page}"\glsnumberformat}{8}
 \glossaryentry{Repository-Pattern?\glossentry{repopattern}|setentrycounter[]{page}"\glsnumberformat}{8}
 \glossaryentry{Corporate-Design?\glossentry{corpdes}|setentrycounter[]{page}"\glsnumberformat}{9}
 \glossaryentry{Repository-Pattern?\glossentry{repopattern}|setentrycounter[]{page}"\glsnumberformat}{9}
 \glossaryentry{Distributed Cache?\glossentry{distributedcache}|setentrycounter[]{page}"\glsnumberformat}{9}
 \glossaryentry{Pinia-Store?\glossentry{pinia}|setentrycounter[]{page}"\glsnumberformat}{9}
-\glossaryentry{Vue.js?\glossentry{vue}|setentrycounter[]{page}"\glsnumberformat}{9}
-\glossaryentry{Vue.js?\glossentry{vue}|setentrycounter[]{page}"\glsnumberformat}{9}
+\glossaryentry{Pinia-Store?\glossentry{pinia}|setentrycounter[]{page}"\glsnumberformat}{9}
+\glossaryentry{Vue.js?\glossentry{vue}|setentrycounter[]{page}"\glsnumberformat}{10}
+\glossaryentry{Vue.js?\glossentry{vue}|setentrycounter[]{page}"\glsnumberformat}{10}
 \glossaryentry{.NET?\glossentry{net}|setentrycounter[]{page}"\glsnumberformat}{10}
 \glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{10}
 \glossaryentry{XML?\glossentry{xml}|setentrycounter[]{page}"\glsnumberformat}{10}
 \glossaryentry{TypeScript?\glossentry{typescript}|setentrycounter[]{page}"\glsnumberformat}{10}
 \glossaryentry{Dependency Injection?\glossentry{di}|setentrycounter[]{page}"\glsnumberformat}{10}
+\glossaryentry{GitFlow?\glossentry{gitflow}|setentrycounter[]{page}"\glsnumberformat}{10}
 \glossaryentry{Linter?\glossentry{Linter}|setentrycounter[]{page}"\glsnumberformat}{10}
-\glossaryentry{Vuetify?\glossentry{vuetify}|setentrycounter[]{page}"\glsnumberformat}{10}
-\glossaryentry{npm?\glossentry{npm}|setentrycounter[]{page}"\glsnumberformat}{10}
+\glossaryentry{Pinia-Store?\glossentry{pinia}|setentrycounter[]{page}"\glsnumberformat}{10}
+\glossaryentry{Vuetify?\glossentry{vuetify}|setentrycounter[]{page}"\glsnumberformat}{11}
+\glossaryentry{npm?\glossentry{npm}|setentrycounter[]{page}"\glsnumberformat}{11}
 \glossaryentry{Vue.js?\glossentry{vue}|setentrycounter[]{page}"\glsnumberformat}{11}
 \glossaryentry{HTML?\glossentry{HTML}|setentrycounter[]{page}"\glsnumberformat}{11}
 \glossaryentry{Pinia-Store?\glossentry{pinia}|setentrycounter[]{page}"\glsnumberformat}{11}
@@ -57,7 +66,7 @@
 \glossaryentry{Pinia-Store?\glossentry{pinia}|setentrycounter[]{page}"\glsnumberformat}{11}
 \glossaryentry{Domain-Driven Design?\glossentry{ddd}|setentrycounter[]{page}"\glsnumberformat}{11}
 \glossaryentry{Domain-Driven Design?\glossentry{ddd}|setentrycounter[]{page}"\glsnumberformat}{11}
-\glossaryentry{Dependency Injection?\glossentry{di}|setentrycounter[]{page}"\glsnumberformat}{11}
+\glossaryentry{Dependency Injection?\glossentry{di}|setentrycounter[]{page}"\glsnumberformat}{12}
 \glossaryentry{Vue.js?\glossentry{vue}|setentrycounter[]{page}"\glsnumberformat}{13}
 \glossaryentry{Vuetify?\glossentry{vuetify}|setentrycounter[]{page}"\glsnumberformat}{13}
 \glossaryentry{TypeScript?\glossentry{typescript}|setentrycounter[]{page}"\glsnumberformat}{13}
