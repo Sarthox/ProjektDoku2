@@ -155,9 +155,11 @@ ilines % Trennlinie linksbündig ausrichten
 
 % Inhaltsverzeichnis
 \tableofcontents
-\addcontentsline{toc}{section}{Abbildungsverzeichnis}
+\thispagestyle{empty}
+\listoftables
 \listoffigures
 \thispagestyle{empty}
+
 
 %Abstract
 %\clearpage
@@ -165,20 +167,10 @@ ilines % Trennlinie linksbündig ausrichten
 
 % Tabellenverzeichnis
 %\clearpage
-%\addcontentsline{toc}{section}{Tabellenverzeichnis}
-%\listoftables
+
 
 % Abkürzungsverzeichnis
 %\clearpage
-
-\newpage
-\onehalfspacing
-\newcommand{\abkvz}{Abkürzungsverzeichnis}
-\section*{\abkvz}
-\markboth{\abkvz}{\abkvz}
-\input{abkuerzungen}
-
-\printglossaries
 
 % Kapitel
 \clearpage
@@ -197,14 +189,20 @@ ilines % Trennlinie linksbündig ausrichten
 \clearpage
 \singlespacing
 \pagenumbering{Roman}
-\addcontentsline{toc}{section}{Literaturverzeichnis}
+
 \renewcommand\refname{Literaturverzeichnis}
 \bibliography{literatur/sammlung}
-
-
 
 \onehalfspacing
 %\fancyhead[L]{Anhang}
 \input{anhang/anhang}
+\newpage
+\onehalfspacing
 
+\newcommand{\abkvz}{Abkürzungsverzeichnis}
+\section*{\abkvz}
+\markboth{\abkvz}{\abkvz}
+\input{abkuerzungen}
+\newpage
+\printglossaries
 \end{document}

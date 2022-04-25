@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.4)  24 APR 2022 20:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.4)  25 APR 2022 12:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1047,50 +1047,74 @@ File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 (document.toc
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 4.
+ 3.
 
 (C:\Users\Jakob\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 4.
+ 3.
 
 (C:\Users\Jakob\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 4.
+ 3.
 
 (C:\Users\Jakob\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 4.
+ 3.
 
 (C:\Users\Jakob\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 4
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3
 .
 
 (C:\Users\Jakob\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
 )
 \tf@toc=\write9
 \openout9 = `document.toc'.
 
+
+[1] (document.lot
+Package acronym Info: Label `acro:OTR' newly defined as it shall be overridden
+although it is yet undefined on input line 3.
+)
+\tf@lot=\write10
+\openout10 = `document.lot'.
+
+ (document.lof)
+\tf@lof=\write11
+\openout11 = `document.lof'.
+
+ [2] (kapitel/kapitel1.tex
+Package acronym Info: Label `acro:KM' newly defined as it shall be overridden
+although it is yet undefined on input line 10.
+Package acronym Info: Label `acro:SPA' newly defined as it shall be overridden
+although it is yet undefined on input line 21.
+Package acronym Info: Label `acro:CICD' newly defined as it shall be overridden
+
+although it is yet undefined on input line 22.
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--26
+
+ []
+
 File: bilder/k&m.png Graphic file (type png)
 <use bilder/k&m.png>
-Package pdftex.def Info: bilder/k&m.png  used on input line 159.
+Package pdftex.def Info: bilder/k&m.png  used on input line 35.
 (pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
-
 
 Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                At least 37.37363pt needed,
@@ -1099,110 +1123,69 @@ Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                processing, but you should do this yourself,
 (scrlayer-scrpage)                e.g., setting geometry's option
 (scrlayer-scrpage)                `head=37.37363pt'.
-(scrlayer-scrpage)                I'll also decrease \topmargin on input line 1
-59.
+(scrlayer-scrpage)                I'll also decrease \topmargin on input line 3
+5.
 
 
 Overfull \vbox (20.37363pt too high) has occurred while \output is active []
 
 
-[1] (document.lof)
-\tf@lof=\write10
-\openout10 = `document.lof'.
-
- [2] (abkuerzungen.tex) (document.gls
-File: bilder/k&m.png Graphic file (type png)
-<use bilder/k&m.png>
-Package pdftex.def Info: bilder/k&m.png  used on input line 50.
-(pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
- [3])
-File: bilder/k&m.png Graphic file (type png)
-<use bilder/k&m.png>
-Package pdftex.def Info: bilder/k&m.png  used on input line 184.
-(pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
- [4]
-(kapitel/kapitel1.tex
-Underfull \hbox (badness 10000) in paragraph at lines 8--10
-
- []
-
-Package acronym Info: Label `acro:KM' newly defined as it shall be overridden
-although it is yet undefined on input line 11.
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--16
-
- []
-
-Package acronym Info: Label `acro:OTR' newly defined as it shall be overridden
-although it is yet undefined on input line 17.
-Package acronym Info: Label `acro:SPA' newly defined as it shall be overridden
-although it is yet undefined on input line 23.
-Package acronym Info: Label `acro:CICD' newly defined as it shall be overridden
-
-although it is yet undefined on input line 24.
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--28
-
- []
-
-File: bilder/k&m.png Graphic file (type png)
-<use bilder/k&m.png>
-Package pdftex.def Info: bilder/k&m.png  used on input line 30.
-(pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.30 B
-      eim Speichern eines Angebots sollen alle im \ac{OTR} eingegebenen Date...
-[1
+l.35 
+      [1
 
 ]
 Package acronym Info: Label `acro:TG' newly defined as it shall be overridden
-although it is yet undefined on input line 44.
+although it is yet undefined on input line 42.
 Package acronym Info: Label `acro:TRG' newly defined as it shall be overridden
-although it is yet undefined on input line 44.
+although it is yet undefined on input line 42.
 File: bilder/k&m.png Graphic file (type png)
 <use bilder/k&m.png>
-Package pdftex.def Info: bilder/k&m.png  used on input line 48.
+Package pdftex.def Info: bilder/k&m.png  used on input line 46.
 (pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
  [2]) (kapitel/kapitel2.tex Excluding 'comment' comment.
 File: bilder/k&m.png Graphic file (type png)
 <use bilder/k&m.png>
-Package pdftex.def Info: bilder/k&m.png  used on input line 49.
+Package pdftex.def Info: bilder/k&m.png  used on input line 48.
 (pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
  [3]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 5
-9.
 
+Package caption Warning: \captionsetup{type*=...} or \captionof
+(caption)                outside box or environment on input line 49.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 49.
+See the caption package documentation for explanation.
+
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 6
+1.
 (C:\Users\Jakob\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 File: bilder/k&m.png Graphic file (type png)
 <use bilder/k&m.png>
-Package pdftex.def Info: bilder/k&m.png  used on input line 62.
+Package pdftex.def Info: bilder/k&m.png  used on input line 63.
 (pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
 
 [4]) (kapitel/kapitel3.tex Excluding 'comment' comment.
+Underfull \hbox (badness 10000) in paragraph at lines 15--18
+
+ []
+
 File: bilder/k&m.png Graphic file (type png)
 <use bilder/k&m.png>
-Package pdftex.def Info: bilder/k&m.png  used on input line 12.
+Package pdftex.def Info: bilder/k&m.png  used on input line 18.
 (pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
- [5]
-Underfull \hbox (badness 10000) in paragraph at lines 15--19
+[5]
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--19
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--32
-
- []
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 31.
+See the caption package documentation for explanation.
 
 File: bilder/k&m.png Graphic file (type png)
 <use bilder/k&m.png>
@@ -1230,7 +1213,7 @@ Package pdftex.def Info: bilder/k&m.png  used on input line 59.
 [7]) (kapitel/kapitel4.tex
 File: bilder/k&m.png Graphic file (type png)
 <use bilder/k&m.png>
-Package pdftex.def Info: bilder/k&m.png  used on input line 10.
+Package pdftex.def Info: bilder/k&m.png  used on input line 13.
 (pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
  [8]
 Underfull \hbox (badness 10000) in paragraph at lines 21--26
@@ -1242,15 +1225,15 @@ File: bilder/k&m.png Graphic file (type png)
 Package pdftex.def Info: bilder/k&m.png  used on input line 26.
 (pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
 [9]) (kapitel/kapitel5.tex
-File: bilder/k&m.png Graphic file (type png)
-<use bilder/k&m.png>
-Package pdftex.def Info: bilder/k&m.png  used on input line 8.
-(pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
- [10]
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
+File: bilder/k&m.png Graphic file (type png)
+<use bilder/k&m.png>
+Package pdftex.def Info: bilder/k&m.png  used on input line 11.
+(pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
+[10]
 Package acronym Info: Label `acro:GUID' newly defined as it shall be overridden
 
 although it is yet undefined on input line 12.
@@ -1259,38 +1242,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-File: bilder/k&m.png Graphic file (type png)
-<use bilder/k&m.png>
-Package pdftex.def Info: bilder/k&m.png  used on input line 16.
-(pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
-[11]
+
 Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
-) (kapitel/kapitel9.tex
 File: bilder/k&m.png Graphic file (type png)
 <use bilder/k&m.png>
-Package pdftex.def Info: bilder/k&m.png  used on input line 1.
+Package pdftex.def Info: bilder/k&m.png  used on input line 24.
 (pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
- [12]
+[11]) (kapitel/kapitel9.tex
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--31
-
- []
-
 File: bilder/k&m.png Graphic file (type png)
 <use bilder/k&m.png>
-Package pdftex.def Info: bilder/k&m.png  used on input line 37.
+Package pdftex.def Info: bilder/k&m.png  used on input line 10.
 (pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
-[13])
+[12]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 31.
+See the caption package documentation for explanation.
+
+)
 File: bilder/k&m.png Graphic file (type png)
 <use bilder/k&m.png>
-Package pdftex.def Info: bilder/k&m.png  used on input line 197.
+Package pdftex.def Info: bilder/k&m.png  used on input line 186.
+(pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
+ [13]
+File: bilder/k&m.png Graphic file (type png)
+<use bilder/k&m.png>
+Package pdftex.def Info: bilder/k&m.png  used on input line 189.
 (pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
  [14] (document.bbl
 
@@ -1298,17 +1282,17 @@ LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
                before end of `thebibliography' environment on input line 10.
 
 ) (anhang/anhang.tex
-<anhang/usecase_footer.png, id=412, 796.9775pt x 673.51625pt>
+<anhang/usecase_footer.png, id=375, 796.9775pt x 673.51625pt>
 File: anhang/usecase_footer.png Graphic file (type png)
 <use anhang/usecase_footer.png>
 Package pdftex.def Info: anhang/usecase_footer.png  used on input line 6.
 (pdftex.def)             Requested size: 469.47083pt x 396.74425pt.
-<anhang/mockup_footer.png, id=414, 1013.28563pt x 39.89906pt>
+<anhang/mockup_footer.png, id=377, 1013.28563pt x 39.89906pt>
 File: anhang/mockup_footer.png Graphic file (type png)
 <use anhang/mockup_footer.png>
 Package pdftex.def Info: anhang/mockup_footer.png  used on input line 11.
 (pdftex.def)             Requested size: 469.45673pt x 18.48528pt.
-<anhang/actual_footer.png, id=415, 1336.995pt x 48.18pt>
+<anhang/actual_footer.png, id=378, 1336.995pt x 48.18pt>
 File: anhang/actual_footer.png Graphic file (type png)
 <use anhang/actual_footer.png>
 Package pdftex.def Info: anhang/actual_footer.png  used on input line 16.
@@ -1316,46 +1300,63 @@ Package pdftex.def Info: anhang/actual_footer.png  used on input line 16.
 )
 File: bilder/k&m.png Graphic file (type png)
 <use bilder/k&m.png>
-Package pdftex.def Info: bilder/k&m.png  used on input line 210.
+Package pdftex.def Info: bilder/k&m.png  used on input line 199.
 (pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.I}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.210 \end{document}
-                     [1
+l.199 \newpage
+               [1
 
  <./anhang/usecase_footer.png> <./anhang/mockup_footer.png> <./anhang/actual_fo
-oter.png>] (document.aux)
+oter.png>] (abkuerzungen.tex)
+File: bilder/k&m.png Graphic file (type png)
+<use bilder/k&m.png>
+Package pdftex.def Info: bilder/k&m.png  used on input line 206.
+(pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.II}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.206 \newpage
+               [2] (document.gls
+File: bilder/k&m.png Graphic file (type png)
+<use bilder/k&m.png>
+Package pdftex.def Info: bilder/k&m.png  used on input line 90.
+(pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
+ [3])
+File: bilder/k&m.png Graphic file (type png)
+<use bilder/k&m.png>
+Package pdftex.def Info: bilder/k&m.png  used on input line 208.
+(pdftex.def)             Requested size: 136.15427pt x 32.42456pt.
+ [4] (document.aux)
 Package rerunfilecheck Info: File `document.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27865 strings out of 478582
- 526847 string characters out of 2844345
- 1004090 words of memory out of 3000000
- 45460 multiletter control sequences out of 15000+600000
+ 27944 strings out of 478582
+ 528175 string characters out of 2844345
+ 1005866 words of memory out of 3000000
+ 45530 multiletter control sequences out of 15000+600000
  513355 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,25n,111p,10625b,848s stack positions out of 10000i,1000n,20000p,200000b,80000s
-
-pdfTeX warning (dest): name{glo:php} has been referenced but does not exist, re
-placed by a fixed one
-
-{C:/Users/Jakob/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/U
-sers/Jakob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.
-pfb><C:/Users/Jakob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmr10.pfb><C:/Users/Jakob/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb><C:/Users/Jakob/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/eurosym/feymr10.pfb><C:/Users/Jakob/AppData/Local/Programs/MiKTeX/fonts/
-type1/urw/helvetic/uhvb8a.pfb><C:/Users/Jakob/AppData/Local/Programs/MiKTeX/fon
-ts/type1/urw/times/utmb8a.pfb><C:/Users/Jakob/AppData/Local/Programs/MiKTeX/fon
-ts/type1/urw/times/utmr8a.pfb><C:/Users/Jakob/AppData/Local/Programs/MiKTeX/fon
-ts/type1/urw/times/utmri8a.pfb>
-Output written on document.pdf (20 pages, 414119 bytes).
+ 108i,24n,111p,10625b,829s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Users/Jakob/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
+/Users/Jakob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi1
+0.pfb><C:/Users/Jakob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmr10.pfb><C:/Users/Jakob/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmsy10.pfb><C:/Users/Jakob/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/eurosym/feymr10.pfb><C:/Users/Jakob/AppData/Local/Programs/MiKTeX/font
+s/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Jakob/AppData/Local/Programs/MiKTeX/f
+onts/type1/urw/times/utmb8a.pfb><C:/Users/Jakob/AppData/Local/Programs/MiKTeX/f
+onts/type1/urw/times/utmr8a.pfb><C:/Users/Jakob/AppData/Local/Programs/MiKTeX/f
+onts/type1/urw/times/utmri8a.pfb>
+Output written on document.pdf (21 pages, 421760 bytes).
 PDF statistics:
- 586 PDF objects out of 1000 (max. 8388607)
- 98 named destinations out of 1000 (max. 500000)
- 306 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 625 PDF objects out of 1000 (max. 8388607)
+ 104 named destinations out of 1000 (max. 500000)
+ 290 words of extra memory for PDF output out of 10000 (max. 10000000)
 
