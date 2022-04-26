@@ -1,28 +1,70 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
 
-\bibitem[Git, 2021]{GitlabKubernetes2021}
- (2021).
-\newblock Using a gitlab ci/cd workflow for kubernetes.
-\newblock
-  \url{https://docs.gitlab.com/ee/user/clusters/agent/ci_cd_workflow.html}.
+\bibitem{Vue2022}
+``{Vue.js}.'' \url{https://vuejs.org/}, 2022.
+\newblock Zugriff am 10.03.2022.
+
+\bibitem{Vuetify2022}
+``{Vuetify}.'' \url{https://github.com/vuetifyjs/vuetify}, 2022.
+\newblock Zugriff am 07.03.2022.
+
+\bibitem{CorporateDesign2021}
+``{Corporate Design}.'' \url{https://de.wikipedia.org/wiki/Corporate_Design},
+  Wikipedia, 2021.
+\newblock Zugriff am 06.03.2022.
+
+\bibitem{XML2022}
+``{Extensible Markup Language}.''
+  \url{https://de.wikipedia.org/wiki/Extensible_Markup_Language}, Wikipedia,
+  2022.
 \newblock Zugriff am 16.03.2022.
 
-\bibitem[Rea, 2022]{ReactivityinDepth2022}
- (2022).
-\newblock Reactivityindepth2022.
-\newblock \url{https://vuejs.org/guide/extras/reactivity-in-depth.html}.
-\newblock Zugriff am 11.03.2022.
+\bibitem{Pinia2022}
+``{What is Pinia?}.'' \url{https://pinia.vuejs.org/introduction.html}, 2022.
+\newblock Zugriff am 14.03.2022.
 
-\bibitem[Pro, 2022]{Prototyping2022}
- (2022).
-\newblock Software prototyping.
-\newblock \url{https://en.wikipedia.org/wiki/Software_prototyping}.
-\newblock Zugriff am 11.03.2022.
-
-\bibitem[XML, 2022]{XML2022}
- (Wikipedia, 2022).
-\newblock Extensible markup language.
-\newblock \url{https://de.wikipedia.org/wiki/Extensible_Markup_Language}.
+\bibitem{Spiralmodell19}
+``{Spiralmodell: Das Modell für Risikomanagement in der
+  Softwareentwicklung}.''
+  \url{https://www.ionos.de/startupguide/produktivitaet/spiralmodell/}, 2019.
 \newblock Zugriff am 16.03.2022.
+
+\bibitem{Zend}
+``{Zend-Framework}.''
+  \url{https://framework.zend.com/manual/1.12/en/introduction.overview.html}, ?
+\newblock Zugriff am 14.03.2022.
+
+\bibitem{GitlabKubernetes2021}
+``{Using a GitLab CI/CD workflow for Kubernetes}.''
+  \url{https://docs.gitlab.com/ee/user/clusters/agent/ci_cd_workflow.html},
+  2021.
+\newblock Zugriff am 16.03.2022.
+
+\bibitem{CacheNet2022}
+``{Cache in-memory in ASP.NET Core}.''
+  \url{https://docs.microsoft.com/en-us/aspnet/core/performance/caching/memory?view=aspnetcore-6.0},
+  2022.
+\newblock Zugriff am 13.03.2022.
+
+\bibitem{Verteilter-Cache2021}
+``{Verteilter Cache}.'' \url{https://de.wikipedia.org/wiki/Verteilter_Cache},
+  Wikipedia, 2021.
+\newblock Zugriff am 10.03.2022.
+
+\bibitem{Prototyping2022}
+``{Software Prototyping}.''
+  \url{https://en.wikipedia.org/wiki/Software_prototyping}, 2022.
+\newblock Zugriff am 11.03.2022.
+
+\bibitem{ReactivityinDepth2022}
+``{Reactivity in Depth}.''
+  \url{https://vuejs.org/guide/extras/reactivity-in-depth.html}, 2022.
+\newblock Zugriff am 11.03.2022.
+
+\bibitem{DDD2022}
+``{Design a DDD-oriented microservice}.''
+  \url{https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice},
+  2022.
+\newblock Zugriff am 14.03.2022.
 
 \end{thebibliography}

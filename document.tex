@@ -142,7 +142,7 @@ ilines % Trennlinie linksbündig ausrichten
 \makeindex
 
 % Glossar
-\usepackage{glossaries}
+\usepackage[toc,section=section]{glossaries}
 \makeglossaries
 \input{glossar}
 
@@ -155,10 +155,10 @@ ilines % Trennlinie linksbündig ausrichten
 
 
 % Inhaltsverzeichnis
+\thispagestyle{empty}
 \tableofcontents
 \thispagestyle{empty}
 \listoftables
-\listoffigures
 \thispagestyle{empty}
 
 
@@ -193,17 +193,19 @@ ilines % Trennlinie linksbündig ausrichten
 \addcontentsline{toc}{section}{Literaturverzeichnis}
 \renewcommand\refname{Literaturverzeichnis}
 \bibliography{literatur/sammlung}
-
-\onehalfspacing
-%\fancyhead[L]{Anhang}
-\input{anhang/anhang}
-\newpage
-\onehalfspacing
-
+%abkürzung
+\clearpage
 \newcommand{\abkvz}{Abkürzungsverzeichnis}
 \section*{\abkvz}
 \markboth{\abkvz}{\abkvz}
+\addcontentsline{toc}{section}{Abkürzungsverzeichnis}
 \input{abkuerzungen}
-\newpage
+%glossar
+\clearpage
 \printglossaries
+
+%anhang
+\clearpage
+\input{anhang/anhang}
+
 \end{document}
